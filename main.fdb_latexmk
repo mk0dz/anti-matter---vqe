@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex main"] 1741984056.43654 "main.aux" "main.bbl" "main" 1741984201.1962 0
+["bibtex main"] 1741984056.43654 "main.aux" "main.bbl" "main" 1741985573.74658 0
   "./references.bib" 1741983341.07081 5209 621234b3d9b809a9e1861db57e45ea84 ""
   "/usr/share/texmf-dist/bibtex/bst/base/unsrt.bst" 1741461196 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "main.aux" 1741984200.98421 26783 cd2d72952d00cbf2f512162c7a6915fa "pdflatex"
+  "main.aux" 1741985573.53513 26783 cd2d72952d00cbf2f512162c7a6915fa "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1741984196.98476 "/home/makul/projects/papers/anti-matter---vqe/main.tex" "main.pdf" "main" 1741984201.1964 0
-  "/home/makul/projects/papers/anti-matter---vqe/main.tex" 1741984196.79319 48568 ea13e89f1cc45950dcdd340f8f51eb3e ""
+["pdflatex"] 1741985569.54437 "/home/makul/projects/papers/anti-matter---vqe/main.tex" "main.pdf" "main" 1741985573.74681 0
+  "/home/makul/projects/papers/anti-matter---vqe/main.tex" 1741985569.35911 48568 e63c2b63b625c5b31deab1cb712dd8a7 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1741461196 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1741461196 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1741461196 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -296,10 +296,10 @@
   "graphs/vqe_progress_heh+_10.png" 1741978559.16957 34593 54da81be040982d5debaa3ebcea2294e ""
   "graphs/vqe_progress_heh+_100.png" 1741978559.16957 45497 53ae3db888ebb43b73231754d89d2300 ""
   "graphs/vqe_progress_heh+_50.png" 1741978559.17057 42283 5e17787dde645914fdcc14b51ad75b40 ""
-  "main.aux" 1741984200.98421 26783 cd2d72952d00cbf2f512162c7a6915fa "pdflatex"
+  "main.aux" 1741985573.53513 26783 cd2d72952d00cbf2f512162c7a6915fa "pdflatex"
   "main.bbl" 1741984069.32358 2725 c7dba22908bece51d1cf8003a95617af "bibtex main"
-  "main.out" 1741984200.98521 3665 7460b7e624e3ec7b346009ff34c99092 "pdflatex"
-  "main.tex" 1741984196.79319 48568 ea13e89f1cc45950dcdd340f8f51eb3e ""
+  "main.out" 1741985573.53713 3665 7460b7e624e3ec7b346009ff34c99092 "pdflatex"
+  "main.tex" 1741985569.35911 48568 e63c2b63b625c5b31deab1cb712dd8a7 ""
   (generated)
   "main.aux"
   "main.log"
