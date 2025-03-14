@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Arch Linux) (preloaded format=pdflatex 2025.3.13)  14 MAR 2025 23:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Arch Linux) (preloaded format=pdflatex 2025.3.13)  15 MAR 2025 00:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/makul/projects/papers/anti-matter & vqe /main.tex"
-(/home/makul/projects/papers/anti-matter & vqe /main.tex
+**/home/makul/projects/papers/anti-matter---vqe/main.tex
+(/home/makul/projects/papers/anti-matter---vqe/main.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/share/texmf-dist/tex/latex/base/article.cls
@@ -301,125 +301,436 @@ Package microtype Info: Loading configuration file microtype.cfg.
 File: microtype.cfg 2025/02/11 v3.2a microtype main configuration file (RS)
 )
 LaTeX Info: Redefining \microtypesetup on input line 3065.
-) (/usr/share/texmf-dist/tex/latex/multirow/multirow.sty
+) (/usr/share/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+ (/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks29
+\pgfutil@tempdima=\dimen171
+\pgfutil@tempdimb=\dimen172
+) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box57
+) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/share/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks30
+\pgfkeys@temptoks=\toks31
+ (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks32
+))
+\pgf@x=\dimen173
+\pgf@y=\dimen174
+\pgf@xa=\dimen175
+\pgf@ya=\dimen176
+\pgf@xb=\dimen177
+\pgf@yb=\dimen178
+\pgf@xc=\dimen179
+\pgf@yc=\dimen180
+\pgf@xd=\dimen181
+\pgf@yd=\dimen182
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count302
+\c@pgf@countb=\count303
+\c@pgf@countc=\count304
+\c@pgf@countd=\count305
+\t@pgf@toka=\toks33
+\t@pgf@tokb=\toks34
+\t@pgf@tokc=\toks35
+\pgf@sys@id@count=\count306
+ (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count307
+\pgfsyssoftpath@bigbuffer@items=\count308
+) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen183
+\pgfmath@count=\count309
+\pgfmath@box=\box58
+\pgfmath@toks=\toks36
+\pgfmath@stack@operand=\toks37
+\pgfmath@stack@operation=\toks38
+) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count310
+)) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen184
+\pgf@picmaxx=\dimen185
+\pgf@picminy=\dimen186
+\pgf@picmaxy=\dimen187
+\pgf@pathminx=\dimen188
+\pgf@pathmaxx=\dimen189
+\pgf@pathminy=\dimen190
+\pgf@pathmaxy=\dimen191
+\pgf@xx=\dimen192
+\pgf@xy=\dimen193
+\pgf@yx=\dimen194
+\pgf@yy=\dimen195
+\pgf@zx=\dimen196
+\pgf@zy=\dimen197
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen198
+\pgf@path@lasty=\dimen199
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen256
+\pgf@shorten@start@additional=\dimen257
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box59
+\pgf@hbox=\box60
+\pgf@layerbox@main=\box61
+\pgf@picture@serial@count=\count311
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen258
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen259
+\pgf@pt@y=\dimen260
+\pgf@pt@temp=\dimen261
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen262
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen263
+\pgf@sys@shading@range@num=\count312
+\pgf@shadingcount=\count313
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box62
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box63
+) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen264
+\pgf@nodesepend=\dimen265
+) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen266
+\pgffor@skip=\dimen267
+\pgffor@stack=\toks39
+\pgffor@toks=\toks40
+)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count314
+\pgfplotmarksize=\dimen268
+)
+\tikz@lastx=\dimen269
+\tikz@lasty=\dimen270
+\tikz@lastxsaved=\dimen271
+\tikz@lastysaved=\dimen272
+\tikz@lastmovetox=\dimen273
+\tikz@lastmovetoy=\dimen274
+\tikzleveldistance=\dimen275
+\tikzsiblingdistance=\dimen276
+\tikz@figbox=\box64
+\tikz@figbox@bg=\box65
+\tikz@tempbox=\box66
+\tikz@tempbox@bg=\box67
+\tikztreelevel=\count315
+\tikznumberofchildren=\count316
+\tikznumberofcurrentchild=\count317
+\tikz@fig@count=\count318
+ (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count319
+\pgfmatrixcurrentcolumn=\count320
+\pgf@matrix@numberofcolumns=\count321
+)
+\tikz@expandcount=\count322
+ (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks41
+\t@pgfplots@tokb=\toks42
+\t@pgfplots@tokc=\toks43
+\pgfplots@tmpa=\dimen277
+\c@pgfplots@coordindex=\count323
+\c@pgfplots@scanlineindex=\count324
+ (/usr/share/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/usr/share/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
+Package pgfplots: loading complementary utilities for your pgf version...
+\t@pgf@toka=\toks44
+\t@pgf@tokb=\toks45
+\t@pgf@tokc=\toks46
+(/usr/share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count325
+) (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
+\c@pgfplotstable@counta=\count326
+\t@pgfplotstable@a=\toks47
+) (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count327
+ (/usr/share/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen278
+\pgfdecoratedremainingdistance=\dimen279
+\pgfdecoratedinputsegmentcompleteddistance=\dimen280
+\pgfdecoratedinputsegmentremainingdistance=\dimen281
+\pgf@decorate@distancetomove=\dimen282
+\pgf@decorate@repeatstate=\count328
+\pgfdecorationsegmentamplitude=\dimen283
+\pgfdecorationsegmentlength=\dimen284
+)
+\tikz@lib@dec@box=\box68
+) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (/usr/share/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.contourlua.code.tex)
+\pgfplots@numplots=\count329
+\pgfplots@xmin@reg=\dimen285
+\pgfplots@xmax@reg=\dimen286
+\pgfplots@ymin@reg=\dimen287
+\pgfplots@ymax@reg=\dimen288
+\pgfplots@zmin@reg=\dimen289
+\pgfplots@zmax@reg=\dimen290
+) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/share/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip58
-\multirow@cntb=\count302
+\multirow@cntb=\count330
 \multirow@dima=\skip59
-\bigstrutjot=\dimen171
+\bigstrutjot=\dimen291
 ) (/usr/share/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
  (/usr/share/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
  (/usr/share/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen172
-\captionmargin=\dimen173
-\caption@leftmargin=\dimen174
-\caption@rightmargin=\dimen175
-\caption@width=\dimen176
-\caption@indent=\dimen177
-\caption@parindent=\dimen178
-\caption@hangindent=\dimen179
+\caption@tempdima=\dimen292
+\captionmargin=\dimen293
+\caption@leftmargin=\dimen294
+\caption@rightmargin=\dimen295
+\caption@width=\dimen296
+\caption@indent=\dimen297
+\caption@parindent=\dimen298
+\caption@hangindent=\dimen299
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count303
-\c@continuedfloat=\count304
+\c@caption@flags=\count331
+\c@continuedfloat=\count332
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 )
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count305
+\c@subfigure=\count333
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count306
-) (/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+\c@subtable=\count334
+) (/usr/share/texmf-dist/tex/latex/qcircuit/qcircuit.sty
+Package: qcircuit 2018/08/14
+ (/usr/share/texmf-dist/tex/generic/xypic/xy.sty (/usr/share/texmf-dist/tex/generic/xypic/xy.tex Bootstrap'ing: catcodes, docmode, (/usr/share/texmf-dist/tex/generic/xypic/xyrecat.tex) (/usr/share/texmf-dist/tex/generic/xypic/xyidioms.tex)
+
+ Xy-pic version 3.8.9 <2013/10/06>
+ Copyright (c) 1991-2013 by Kristoffer H. Rose <krisrose@tug.org> and others
+ Xy-pic is free software: see the User's Guide for details.
+
+Loading kernel: messages; fonts; allocations: state,
+\X@c=\dimen300
+\Y@c=\dimen301
+\U@c=\dimen302
+\D@c=\dimen303
+\L@c=\dimen304
+\R@c=\dimen305
+\Edge@c=\toks48
+\X@p=\dimen306
+\Y@p=\dimen307
+\U@p=\dimen308
+\D@p=\dimen309
+\L@p=\dimen310
+\R@p=\dimen311
+\Edge@p=\toks49
+\X@origin=\dimen312
+\Y@origin=\dimen313
+\X@xbase=\dimen314
+\Y@xbase=\dimen315
+\X@ybase=\dimen316
+\Y@ybase=\dimen317
+\X@min=\dimen318
+\Y@min=\dimen319
+\X@max=\dimen320
+\Y@max=\dimen321
+\lastobjectbox@=\box69
+\zerodotbox@=\box70
+\almostz@=\dimen322
+ direction,
+\d@X=\dimen323
+\d@Y=\dimen324
+\K@=\count335
+\KK@=\count336
+\Direction=\count337
+\K@dXdY=\dimen325
+\K@dYdX=\dimen326
+\xyread@=\read3
+\xywrite@=\write4
+\csp@=\count338
+\quotPTK@=\dimen327
+ utility macros; pictures: \xy, positions,
+\swaptoks@@=\toks50
+\connectobjectbox@@=\box71
+ objects,
+\styletoks@=\toks51
+ decorations; kernel objects: directionals, circles, text; options; algorithms: directions, edges, connections;  Xy-pic loaded) (/usr/share/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+Package: xy 2013/10/06 Xy-pic version 3.8.9
+ (/usr/share/texmf-dist/tex/generic/xypic/xypdf.tex  Xy-pic option: PDF driver v.1.7 loaded)) (/usr/share/texmf-dist/tex/generic/xypic/xymatrix.tex  Xy-pic option: Matrix feature v.3.14
+\Row=\count339
+\Col=\count340
+\queue@=\toks52
+\queue@@=\toks53
+\qcount@=\count341
+\qcount@@=\count342
+\matrixsize@=\count343
+ loaded) (/usr/share/texmf-dist/tex/generic/xypic/xyframe.tex  Xy-pic option: Frame and Bracket extension v.3.14 loaded) Xy-pic pdf driver: `frame' extension support (/usr/share/texmf-dist/tex/generic/xypic/xypdf-fr.tex (/usr/share/texmf-dist/tex/generic/xypic/xycurve.tex  Xy-pic option: Curve and Spline extension v.3.12 curve,
+\crv@cnt@=\count344
+\crvpts@=\toks54
+\splinebox@=\box72
+\splineval@=\dimen328
+\splinedepth@=\dimen329
+\splinetol@=\dimen330
+\splinelength@=\dimen331
+ circles,
+\L@=\dimen332
+ loaded) Xy-pic pdf driver: `curve' extension support (/usr/share/texmf-dist/tex/generic/xypic/xypdf-cu.tex loaded) loaded) (/usr/share/texmf-dist/tex/generic/xypic/xyarrow.tex  Xy-pic option: Arrow and Path feature v.3.9 path, \ar, loaded) (/usr/share/texmf-dist/tex/generic/xypic/xyarc.tex  Xy-pic option: Circle, Ellipse, Arc feature v.3.8 circles, ellipses, elliptical arcs, loaded)) (/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count307
-\Gm@cntv=\count308
-\c@Gm@tempcnt=\count309
-\Gm@bindingoffset=\dimen180
-\Gm@wd@mp=\dimen181
-\Gm@odd@mp=\dimen182
-\Gm@even@mp=\dimen183
-\Gm@layoutwidth=\dimen184
-\Gm@layoutheight=\dimen185
-\Gm@layouthoffset=\dimen186
-\Gm@layoutvoffset=\dimen187
-\Gm@dimlist=\toks29
+\Gm@cnth=\count345
+\Gm@cntv=\count346
+\c@Gm@tempcnt=\count347
+\Gm@bindingoffset=\dimen333
+\Gm@wd@mp=\dimen334
+\Gm@odd@mp=\dimen335
+\Gm@even@mp=\dimen336
+\Gm@layoutwidth=\dimen337
+\Gm@layoutheight=\dimen338
+\Gm@layouthoffset=\dimen339
+\Gm@layoutvoffset=\dimen340
+\Gm@dimlist=\toks55
 ) (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count310
-\l__pdf_internal_box=\box57
+\l__color_backend_stack_int=\count348
+\l__pdf_internal_box=\box73
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
  (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count311
-\scratchdimen=\dimen188
-\scratchbox=\box58
-\nofMPsegments=\count312
-\nofMParguments=\count313
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count314
-\MPscratchDim=\dimen189
-\MPnumerator=\count315
-\makeMPintoPDFobject=\count316
-\everyMPtoPDFconversion=\toks31
+\scratchcounter=\count349
+\scratchdimen=\dimen341
+\scratchbox=\box74
+\nofMPsegments=\count350
+\nofMParguments=\count351
+\everyMPshowfont=\toks56
+\MPscratchCnt=\count352
+\MPscratchDim=\dimen342
+\MPnumerator=\count353
+\makeMPintoPDFobject=\count354
+\everyMPtoPDFconversion=\toks57
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 31.
+Package hyperref Info: Link coloring OFF on input line 35.
  (./main.out) (./main.out)
-\@outlinefile=\write3
-\openout3 = `main.out'.
+\@outlinefile=\write5
+\openout5 = `main.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 31.
-Package microtype Info: Applying patch `item' on input line 31.
-Package microtype Info: Applying patch `toc' on input line 31.
-Package microtype Info: Applying patch `eqnum' on input line 31.
-Package microtype Info: Applying patch `footnote' on input line 31.
-Package microtype Info: Applying patch `verbatim' on input line 31.
-LaTeX Info: Redefining \microtypesetup on input line 31.
+LaTeX Info: Redefining \microtypecontext on input line 35.
+Package microtype Info: Applying patch `item' on input line 35.
+Package microtype Info: Applying patch `toc' on input line 35.
+Package microtype Info: Applying patch `eqnum' on input line 35.
+Package microtype Info: Applying patch `footnote' on input line 35.
+Package microtype Info: Applying patch `verbatim' on input line 35.
+LaTeX Info: Redefining \microtypesetup on input line 35.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 31.
+LaTeX Info: Redefining \showhyphens on input line 35.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
  (/usr/share/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
+Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
+
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 35.
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (/usr/share/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 35.
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (/usr/share/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+Package xypdf Info: Line width: 0.39998pt on input line 35.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -455,18 +766,6 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 34.
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-) (/usr/share/texmf-dist/tex/latex/microtype/mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
- (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (/usr/share/texmf-dist/tex/latex/microtype/mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
@@ -478,199 +777,193 @@ Package microtype Info: Loading generic protrusion settings for font family
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 
 
-{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-
-<graphs/anti_heh_refined_pes.png, id=116, 619.8357pt x 394.5942pt>
-File: graphs/anti_heh_refined_pes.png Graphic file (type png)
-<use graphs/anti_heh_refined_pes.png>
-Package pdftex.def Info: graphs/anti_heh_refined_pes.png  used on input line 106.
-(pdftex.def)             Requested size: 440.18959pt x 280.23608pt.
-
-
-[2]
-<graphs/anti_heh_orbitals.png, id=149, 850.8588pt x 353.1594pt>
-File: graphs/anti_heh_orbitals.png Graphic file (type png)
-<use graphs/anti_heh_orbitals.png>
-Package pdftex.def Info: graphs/anti_heh_orbitals.png  used on input line 155.
-(pdftex.def)             Requested size: 239.55144pt x 99.4282pt.
-
-
-
-Underfull \hbox (badness 1210) in paragraph at lines 174--175
-[]\T1/cmr/m/n/10 (+20) Initialize pa-ram-e-ter-ized quan-tum cir-cuit (Ef-fi-
- []
-
-
-Underfull \hbox (badness 3260) in paragraph at lines 175--176
-[]\T1/cmr/m/n/10 (+20) Iteratively op-ti-mize cir-cuit pa-ram-e-ters us-ing
- []
-
-
-
-[3 <./graphs/anti_heh_refined_pes.png> <./graphs/anti_heh_orbitals.png>]
-<graphs/anti_heh_density_2d.png, id=168, 592.1322pt x 505.89pt>
-File: graphs/anti_heh_density_2d.png Graphic file (type png)
-<use graphs/anti_heh_density_2d.png>
-Package pdftex.def Info: graphs/anti_heh_density_2d.png  used on input line 183.
-(pdftex.def)             Requested size: 239.55144pt x 204.66046pt.
-<graphs/corrected_comparison_pes.png, id=170, 626.34pt x 394.5942pt>
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] <xymatrix 5x4 1316> <xymatrix 4x4 798>
+<graphs/corrected_comparison_pes.png, id=87, 626.34pt x 394.5942pt>
 File: graphs/corrected_comparison_pes.png Graphic file (type png)
 <use graphs/corrected_comparison_pes.png>
-Package pdftex.def Info: graphs/corrected_comparison_pes.png  used on input line 206.
+Package pdftex.def Info: graphs/corrected_comparison_pes.png  used on input line 134.
 (pdftex.def)             Requested size: 239.55144pt x 150.91672pt.
 
 
-<graphs/anti_heh_density_3d.png, id=174, 684.8787pt x 567.3195pt>
+LaTeX Warning: Reference `fig:refined_pes' on page 2 undefined on input line 141.
+
+
+
+
+LaTeX Warning: Reference `fig:orbitals' on page 2 undefined on input line 146.
+
+
+Underfull \vbox (badness 2460) has occurred while \output is active []
+
+
+
+[2 <./graphs/corrected_comparison_pes.png>]
+<graphs/anti_heh_density_3d.png, id=106, 684.8787pt x 567.3195pt>
 File: graphs/anti_heh_density_3d.png Graphic file (type png)
 <use graphs/anti_heh_density_3d.png>
-Package pdftex.def Info: graphs/anti_heh_density_3d.png  used on input line 222.
+Package pdftex.def Info: graphs/anti_heh_density_3d.png  used on input line 150.
 (pdftex.def)             Requested size: 239.55144pt x 198.42628pt.
 
 
-[4 <./graphs/anti_heh_density_2d.png> <./graphs/corrected_comparison_pes.png>]
-Underfull \hbox (badness 2717) in paragraph at lines 231--231
+LaTeX Warning: Reference `fig:density_2d' on page 3 undefined on input line 155.
+
+
+Underfull \hbox (badness 2717) in paragraph at lines 159--159
 []\T1/cmr/bx/n/12 (+20) Quantum Com-pu-ta-tional Per-for-
  []
 
-<graphs/quantum_error_analysis.png, id=192, 867.24pt x 433.62pt>
+<graphs/quantum_error_analysis.png, id=109, 867.24pt x 433.62pt>
 File: graphs/quantum_error_analysis.png Graphic file (type png)
 <use graphs/quantum_error_analysis.png>
-Package pdftex.def Info: graphs/quantum_error_analysis.png  used on input line 238.
-(pdftex.def)             Requested size: 239.55144pt x 119.77188pt.
-<graphs/quantum_comparison_distance_0.80.png, id=197, 867.24pt x 433.62pt>
-File: graphs/quantum_comparison_distance_0.80.png Graphic file (type png)
-<use graphs/quantum_comparison_distance_0.80.png>
-Package pdftex.def Info: graphs/quantum_comparison_distance_0.80.png  used on input line 249.
-(pdftex.def)             Requested size: 239.55144pt x 119.77188pt.
-<graphs/quantum_comparison_distance_1.50.png, id=198, 867.24pt x 433.62pt>
-File: graphs/quantum_comparison_distance_1.50.png Graphic file (type png)
-<use graphs/quantum_comparison_distance_1.50.png>
-Package pdftex.def Info: graphs/quantum_comparison_distance_1.50.png  used on input line 256.
-(pdftex.def)             Requested size: 239.55144pt x 119.77188pt.
-<graphs/quantum_comparison_distance_2.50.png, id=199, 867.24pt x 433.62pt>
-File: graphs/quantum_comparison_distance_2.50.png Graphic file (type png)
-<use graphs/quantum_comparison_distance_2.50.png>
-Package pdftex.def Info: graphs/quantum_comparison_distance_2.50.png  used on input line 263.
+Package pdftex.def Info: graphs/quantum_error_analysis.png  used on input line 166.
 (pdftex.def)             Requested size: 239.55144pt x 119.77188pt.
 
-Overfull \hbox (30.97504pt too wide) in paragraph at lines 274--283
+
+<graphs/quantum_comparison_distance_0.80.png, id=114, 867.24pt x 433.62pt>
+File: graphs/quantum_comparison_distance_0.80.png Graphic file (type png)
+<use graphs/quantum_comparison_distance_0.80.png>
+Package pdftex.def Info: graphs/quantum_comparison_distance_0.80.png  used on input line 177.
+(pdftex.def)             Requested size: 239.55144pt x 119.77188pt.
+<graphs/quantum_comparison_distance_1.50.png, id=115, 867.24pt x 433.62pt>
+File: graphs/quantum_comparison_distance_1.50.png Graphic file (type png)
+<use graphs/quantum_comparison_distance_1.50.png>
+Package pdftex.def Info: graphs/quantum_comparison_distance_1.50.png  used on input line 184.
+(pdftex.def)             Requested size: 239.55144pt x 119.77188pt.
+<graphs/quantum_comparison_distance_2.50.png, id=116, 867.24pt x 433.62pt>
+File: graphs/quantum_comparison_distance_2.50.png Graphic file (type png)
+<use graphs/quantum_comparison_distance_2.50.png>
+Package pdftex.def Info: graphs/quantum_comparison_distance_2.50.png  used on input line 191.
+(pdftex.def)             Requested size: 239.55144pt x 119.77188pt.
+
+
+[3 <./graphs/anti_heh_density_3d.png> <./graphs/quantum_error_analysis.png> <./graphs/quantum_comparison_distance_0.80.png> <./graphs/quantum_comparison_distance_1.50.png>]
+Overfull \hbox (30.97504pt too wide) in paragraph at lines 202--211
  [][] 
+ []
+
+<graphs/error_mitigation_impact.png, id=133, 867.24pt x 433.62pt>
+File: graphs/error_mitigation_impact.png Graphic file (type png)
+<use graphs/error_mitigation_impact.png>
+Package pdftex.def Info: graphs/error_mitigation_impact.png  used on input line 226.
+(pdftex.def)             Requested size: 239.55144pt x 119.77188pt.
+
+
+<graphs/vqe_final_anti_heh+.png, id=138, 722.7pt x 433.62pt>
+File: graphs/vqe_final_anti_heh+.png Graphic file (type png)
+<use graphs/vqe_final_anti_heh+.png>
+Package pdftex.def Info: graphs/vqe_final_anti_heh+.png  used on input line 246.
+(pdftex.def)             Requested size: 239.55144pt x 143.73022pt.
+
+
+[4 <./graphs/quantum_comparison_distance_2.50.png> <./graphs/error_mitigation_impact.png> <./graphs/vqe_final_anti_heh+.png>]
+<graphs/vqe_progress_anti_heh+_10.png, id=160, 722.7pt x 433.62pt>
+File: graphs/vqe_progress_anti_heh+_10.png Graphic file (type png)
+<use graphs/vqe_progress_anti_heh+_10.png>
+Package pdftex.def Info: graphs/vqe_progress_anti_heh+_10.png  used on input line 264.
+(pdftex.def)             Requested size: 156.5165pt x 93.90797pt.
+<graphs/vqe_progress_anti_heh+_50.png, id=161, 722.7pt x 433.62pt>
+File: graphs/vqe_progress_anti_heh+_50.png Graphic file (type png)
+<use graphs/vqe_progress_anti_heh+_50.png>
+Package pdftex.def Info: graphs/vqe_progress_anti_heh+_50.png  used on input line 270.
+(pdftex.def)             Requested size: 156.5165pt x 93.90797pt.
+<graphs/vqe_progress_anti_heh+_100.png, id=162, 722.7pt x 433.62pt>
+File: graphs/vqe_progress_anti_heh+_100.png Graphic file (type png)
+<use graphs/vqe_progress_anti_heh+_100.png>
+Package pdftex.def Info: graphs/vqe_progress_anti_heh+_100.png  used on input line 276.
+(pdftex.def)             Requested size: 156.5165pt x 93.90797pt.
+<graphs/vqe_progress_heh+_10.png, id=163, 722.7pt x 433.62pt>
+File: graphs/vqe_progress_heh+_10.png Graphic file (type png)
+<use graphs/vqe_progress_heh+_10.png>
+Package pdftex.def Info: graphs/vqe_progress_heh+_10.png  used on input line 287.
+(pdftex.def)             Requested size: 156.5165pt x 93.90797pt.
+<graphs/vqe_progress_heh+_50.png, id=164, 722.7pt x 433.62pt>
+File: graphs/vqe_progress_heh+_50.png Graphic file (type png)
+<use graphs/vqe_progress_heh+_50.png>
+Package pdftex.def Info: graphs/vqe_progress_heh+_50.png  used on input line 293.
+(pdftex.def)             Requested size: 156.5165pt x 93.90797pt.
+<graphs/vqe_progress_heh+_100.png, id=165, 722.7pt x 433.62pt>
+File: graphs/vqe_progress_heh+_100.png Graphic file (type png)
+<use graphs/vqe_progress_heh+_100.png>
+Package pdftex.def Info: graphs/vqe_progress_heh+_100.png  used on input line 299.
+(pdftex.def)             Requested size: 156.5165pt x 93.90797pt.
+<graphs/vqe_parameters_anti_heh+.png, id=168, 722.7pt x 433.62pt>
+File: graphs/vqe_parameters_anti_heh+.png Graphic file (type png)
+<use graphs/vqe_parameters_anti_heh+.png>
+Package pdftex.def Info: graphs/vqe_parameters_anti_heh+.png  used on input line 311.
+(pdftex.def)             Requested size: 239.55144pt x 143.73022pt.
+<graphs/vqe_parameters_heh+.png, id=169, 722.7pt x 433.62pt>
+File: graphs/vqe_parameters_heh+.png Graphic file (type png)
+<use graphs/vqe_parameters_heh+.png>
+Package pdftex.def Info: graphs/vqe_parameters_heh+.png  used on input line 318.
+(pdftex.def)             Requested size: 239.55144pt x 143.73022pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 338--338
+[]\T1/cmr/bx/n/10 (+20) Connections to Ex-per-i-men-tal Anti-
  []
 
 
 
-
-
-[5 <./graphs/anti_heh_density_3d.png> <./graphs/quantum_error_analysis.png> <./graphs/quantum_comparison_distance_0.80.png> <./graphs/quantum_comparison_distance_1.50.png>]
-<graphs/error_mitigation_impact.png, id=215, 867.24pt x 433.62pt>
-File: graphs/error_mitigation_impact.png Graphic file (type png)
-<use graphs/error_mitigation_impact.png>
-Package pdftex.def Info: graphs/error_mitigation_impact.png  used on input line 298.
-(pdftex.def)             Requested size: 239.55144pt x 119.77188pt.
-
-
-<graphs/vqe_final_anti_heh+.png, id=220, 722.7pt x 433.62pt>
-File: graphs/vqe_final_anti_heh+.png Graphic file (type png)
-<use graphs/vqe_final_anti_heh+.png>
-Package pdftex.def Info: graphs/vqe_final_anti_heh+.png  used on input line 318.
-(pdftex.def)             Requested size: 239.55144pt x 143.73022pt.
-<graphs/vqe_progress_anti_heh+_10.png, id=223, 722.7pt x 433.62pt>
-File: graphs/vqe_progress_anti_heh+_10.png Graphic file (type png)
-<use graphs/vqe_progress_anti_heh+_10.png>
-Package pdftex.def Info: graphs/vqe_progress_anti_heh+_10.png  used on input line 336.
-(pdftex.def)             Requested size: 156.5165pt x 93.90797pt.
-<graphs/vqe_progress_anti_heh+_50.png, id=224, 722.7pt x 433.62pt>
-File: graphs/vqe_progress_anti_heh+_50.png Graphic file (type png)
-<use graphs/vqe_progress_anti_heh+_50.png>
-Package pdftex.def Info: graphs/vqe_progress_anti_heh+_50.png  used on input line 342.
-(pdftex.def)             Requested size: 156.5165pt x 93.90797pt.
-<graphs/vqe_progress_anti_heh+_100.png, id=225, 722.7pt x 433.62pt>
-File: graphs/vqe_progress_anti_heh+_100.png Graphic file (type png)
-<use graphs/vqe_progress_anti_heh+_100.png>
-Package pdftex.def Info: graphs/vqe_progress_anti_heh+_100.png  used on input line 348.
-(pdftex.def)             Requested size: 156.5165pt x 93.90797pt.
-<graphs/vqe_progress_heh+_10.png, id=226, 722.7pt x 433.62pt>
-File: graphs/vqe_progress_heh+_10.png Graphic file (type png)
-<use graphs/vqe_progress_heh+_10.png>
-Package pdftex.def Info: graphs/vqe_progress_heh+_10.png  used on input line 359.
-(pdftex.def)             Requested size: 156.5165pt x 93.90797pt.
-<graphs/vqe_progress_heh+_50.png, id=227, 722.7pt x 433.62pt>
-File: graphs/vqe_progress_heh+_50.png Graphic file (type png)
-<use graphs/vqe_progress_heh+_50.png>
-Package pdftex.def Info: graphs/vqe_progress_heh+_50.png  used on input line 365.
-(pdftex.def)             Requested size: 156.5165pt x 93.90797pt.
-<graphs/vqe_progress_heh+_100.png, id=228, 722.7pt x 433.62pt>
-File: graphs/vqe_progress_heh+_100.png Graphic file (type png)
-<use graphs/vqe_progress_heh+_100.png>
-Package pdftex.def Info: graphs/vqe_progress_heh+_100.png  used on input line 371.
-(pdftex.def)             Requested size: 156.5165pt x 93.90797pt.
-
-
-[6 <./graphs/quantum_comparison_distance_2.50.png> <./graphs/error_mitigation_impact.png> <./graphs/vqe_final_anti_heh+.png>]
-<graphs/vqe_parameters_anti_heh+.png, id=248, 722.7pt x 433.62pt>
-File: graphs/vqe_parameters_anti_heh+.png Graphic file (type png)
-<use graphs/vqe_parameters_anti_heh+.png>
-Package pdftex.def Info: graphs/vqe_parameters_anti_heh+.png  used on input line 383.
-(pdftex.def)             Requested size: 239.55144pt x 143.73022pt.
-<graphs/vqe_parameters_heh+.png, id=249, 722.7pt x 433.62pt>
-File: graphs/vqe_parameters_heh+.png Graphic file (type png)
-<use graphs/vqe_parameters_heh+.png>
-Package pdftex.def Info: graphs/vqe_parameters_heh+.png  used on input line 390.
-(pdftex.def)             Requested size: 239.55144pt x 143.73022pt.
-
-
-
-
-[7 <./graphs/vqe_progress_anti_heh+_10.png> <./graphs/vqe_progress_anti_heh+_50.png> <./graphs/vqe_progress_anti_heh+_100.png> <./graphs/vqe_progress_heh+_10.png> <./graphs/vqe_progress_heh+_50.png> <./graphs/vqe_progress_heh+_100.png> <./graphs/vqe_parameters_anti_heh+.png> <./graphs/vqe_parameters_heh+.png>]
-<graphs/quantum_vs_classical_energies.png, id=271, 867.24pt x 433.62pt>
+<graphs/quantum_vs_classical_energies.png, id=174, 867.24pt x 433.62pt>
 File: graphs/quantum_vs_classical_energies.png Graphic file (type png)
 <use graphs/quantum_vs_classical_energies.png>
-Package pdftex.def Info: graphs/quantum_vs_classical_energies.png  used on input line 414.
+Package pdftex.def Info: graphs/quantum_vs_classical_energies.png  used on input line 351.
 (pdftex.def)             Requested size: 239.55144pt x 119.77188pt.
-<graphs/corrected_solvent_effects.png, id=274, 859.7721pt x 425.1885pt>
+<graphs/corrected_solvent_effects.png, id=175, 859.7721pt x 425.1885pt>
 File: graphs/corrected_solvent_effects.png Graphic file (type png)
 <use graphs/corrected_solvent_effects.png>
-Package pdftex.def Info: graphs/corrected_solvent_effects.png  used on input line 425.
+Package pdftex.def Info: graphs/corrected_solvent_effects.png  used on input line 358.
 (pdftex.def)             Requested size: 239.55144pt x 118.46156pt.
-
-
-<graphs/corrected_time_evolution.png, id=277, 860.013pt x 714.5094pt>
+<graphs/corrected_time_evolution.png, id=176, 860.013pt x 714.5094pt>
 File: graphs/corrected_time_evolution.png Graphic file (type png)
 <use graphs/corrected_time_evolution.png>
-Package pdftex.def Info: graphs/corrected_time_evolution.png  used on input line 434.
+Package pdftex.def Info: graphs/corrected_time_evolution.png  used on input line 365.
 (pdftex.def)             Requested size: 239.55144pt x 199.01462pt.
-<graphs/corrected_wavefunction_evolution.png, id=278, 1078.2684pt x 569.7285pt>
+<graphs/corrected_wavefunction_evolution.png, id=177, 1078.2684pt x 569.7285pt>
 File: graphs/corrected_wavefunction_evolution.png Graphic file (type png)
 <use graphs/corrected_wavefunction_evolution.png>
-Package pdftex.def Info: graphs/corrected_wavefunction_evolution.png  used on input line 441.
+Package pdftex.def Info: graphs/corrected_wavefunction_evolution.png  used on input line 372.
 (pdftex.def)             Requested size: 239.55144pt x 126.56642pt.
 
 
-[8 <./graphs/quantum_vs_classical_energies.png> <./graphs/corrected_solvent_effects.png> <./graphs/corrected_time_evolution.png> <./graphs/corrected_wavefunction_evolution.png>] (./main.bbl
+[5]
 
-)
 
-[9] (./main.aux)
+
+[6 <./graphs/vqe_progress_anti_heh+_10.png> <./graphs/vqe_progress_anti_heh+_50.png> <./graphs/vqe_progress_anti_heh+_100.png> <./graphs/vqe_progress_heh+_10.png> <./graphs/vqe_progress_heh+_50.png> <./graphs/vqe_progress_heh+_100.png> <./graphs/vqe_parameters_anti_heh+.png> <./graphs/vqe_parameters_heh+.png>]
+
+(./main.bbl
+
+[7 <./graphs/quantum_vs_classical_energies.png> <./graphs/corrected_solvent_effects.png> <./graphs/corrected_time_evolution.png> <./graphs/corrected_wavefunction_evolution.png>])
+
+
+
+[8
+
+] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B941DBB12C5B1E25DB9F559D87D8B74C;3625.
+(rerunfilecheck)             Checksum: 4DC5D594E3D41F73A801053263FFFF56;2470.
  ) 
 Here is how much of TeX's memory you used:
- 15376 strings out of 475171
- 244565 string characters out of 5767103
- 689013 words of memory out of 5000000
- 37874 multiletter control sequences out of 15000+600000
- 586410 words of font info for 192 fonts, out of 8000000 for 9000
+ 38212 strings out of 475171
+ 840657 string characters out of 5767103
+ 1415048 words of memory out of 5000000
+ 60379 multiletter control sequences out of 15000+600000
+ 585168 words of font info for 188 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,9n,79p,1964b,603s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (9 pages, 2484257 bytes).
+ 99i,21n,101p,1941b,2269s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on main.pdf (8 pages, 2000040 bytes).
 PDF statistics:
- 424 PDF objects out of 1000 (max. 8388607)
- 320 compressed objects within 4 object streams
- 101 named destinations out of 1000 (max. 500000)
- 49940 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 311 PDF objects out of 1000 (max. 8388607)
+ 225 compressed objects within 3 object streams
+ 64 named destinations out of 1000 (max. 500000)
+ 45785 words of extra memory for PDF output out of 51595 (max. 10000000)
 

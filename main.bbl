@@ -13,15 +13,19 @@ J.G. Lee, E.A. Bergin, and R.~G{\"u}sten.
 \bibitem{czachorowski2020towards}
 P.~Czachorowski, M.~Meister, M.~Motta, T.B. Rijmen, and G.K. Chan.
 \newblock Towards quantum chemistry on a quantum computer.
-\newblock {\em Journal of Chemical Theory and Computation}, 16(11):7342--7354, 2020.
+\newblock {\em Journal of Chemical Theory and Computation}, 16(11):7342--7354,
+  2020.
 
 \bibitem{cao2019quantum}
-Yudong Cao, Jonathan Romero, Jonathan~P Olson, Matthias Degroote, Peter~D Johnson, M{\'a}ria Kieferov{\'a}, Ian~D Kivlichan, Tim Menke, Borja Peropadre, Nicolas~PD Sawaya, et~al.
+Yudong Cao, Jonathan Romero, Jonathan~P Olson, Matthias Degroote, Peter~D
+  Johnson, M{\'a}ria Kieferov{\'a}, Ian~D Kivlichan, Tim Menke, Borja
+  Peropadre, Nicolas~PD Sawaya, et~al.
 \newblock Quantum chemistry in the age of quantum computing.
 \newblock {\em Chemical reviews}, 119(19):10856--10915, 2019.
 
 \bibitem{peruzzo2014variational}
-Alberto Peruzzo, Jarrod McClean, Peter Shadbolt, Man-Hong Yung, Xiao-Qi Zhou, Peter~J Love, Al{\'a}n Aspuru-Guzik, and Jeremy~L O'Brien.
+Alberto Peruzzo, Jarrod McClean, Peter Shadbolt, Man-Hong Yung, Xiao-Qi Zhou,
+  Peter~J Love, Al{\'a}n Aspuru-Guzik, and Jeremy~L O'Brien.
 \newblock A variational eigenvalue solver on a quantum processor.
 \newblock {\em Nature communications}, 5(1):1--7, 2014.
 
@@ -31,48 +35,31 @@ Jarrod~R McClean, Jonathan Romero, Ryan Babbush, and Al{\'a}n Aspuru-Guzik.
 \newblock {\em New Journal of Physics}, 18(2):023023, 2016.
 
 \bibitem{cerezo2021variational}
-Marco Cerezo, Andrew Arrasmith, Ryan Babbush, Simon~C Benjamin, Suguru Endo, Keisuke Fujii, Jarrod~R McClean, Kosuke Mitarai, Xiao Yuan, Lukasz Cincio, et~al.
+Marco Cerezo, Andrew Arrasmith, Ryan Babbush, Simon~C Benjamin, Suguru Endo,
+  Keisuke Fujii, Jarrod~R McClean, Kosuke Mitarai, Xiao Yuan, Lukasz Cincio,
+  et~al.
 \newblock Variational quantum algorithms.
 \newblock {\em Nature Reviews Physics}, 3(9):625--644, 2021.
 
-\bibitem{griffiths2018introduction}
-David~J Griffiths and Darrell~F Schroeter.
-\newblock {\em Introduction to quantum mechanics}.
-\newblock Cambridge University Press, 2018.
-
-\bibitem{georgescu2014quantum}
-I.M. Georgescu, S.~Ashhab, and F.~Nori.
-\newblock Quantum simulation.
-\newblock {\em Reviews of Modern Physics}, 86(1):153, 2014.
-
-\bibitem{tilly2022variational}
-James Tilly, Hongxiang Chen, Shuxiang Cao, Dario Picozzi, Kanav Setia, Ying Li, Edward Grant, Leonard Wossnig, Ivan Rungger, George~H Booth, et~al.
-\newblock The variational quantum eigensolver: A review of methods and best practices.
-\newblock {\em Physics Reports}, 986:1--128, 2022.
-
-\bibitem{qiskit2019}
-{Qiskit developers}.
-\newblock Qiskit: An open-source framework for quantum computing.
-\newblock 2019.
-
-\bibitem{kandala2017hardware}
-Abhinav Kandala, Antonio Mezzacapo, Kristan Temme, Maika Takita, Markus Brink, Jerry~M Chow, and Jay~M Gambetta.
-\newblock Hardware-efficient variational quantum eigensolver for small molecules and quantum magnets.
-\newblock {\em Nature}, 549(7671):242--246, 2017.
-
-\bibitem{temme2017error}
-Kristan Temme, Sergey Bravyi, and Jay~M Gambetta.
-\newblock Error mitigation for short-depth quantum circuits.
-\newblock {\em Physical review letters}, 119(18):180509, 2017.
+\bibitem{chardonnet2021theoretical}
+V.~Chardonnet, D.B. Cassidy, and S.G. Karshenboim.
+\newblock Theoretical investigation of anti-matter molecules.
+\newblock {\em Physical Review A}, 103(1):012814, 2021.
 
 \bibitem{sharma2020noise}
 Kunal Sharma, Sumeet Khatri, Marco Li, and Marco Cerezo.
 \newblock Noise resilience of variational quantum compiling.
 \newblock {\em New Journal of Physics}, 22(4):043006, 2020.
 
-\bibitem{chardonnet2021theoretical}
-V.~Chardonnet, D.B. Cassidy, and S.G. Karshenboim.
-\newblock Theoretical investigation of anti-matter molecules.
-\newblock {\em Physical Review A}, 103(1):012814, 2021.
+\bibitem{temme2017error}
+Kristan Temme, Sergey Bravyi, and Jay~M Gambetta.
+\newblock Error mitigation for short-depth quantum circuits.
+\newblock {\em Physical review letters}, 119(18):180509, 2017.
+
+\bibitem{alpha2022spectroscopy}
+{ALPHA Collaboration}, M.~Ahmadi, B.X.R. Alves, C.J. Baker, W.~Bertsche,
+  E.~Butler, A.~Capra, C.~Carruth, C.L. Cesar, M.~Charlton, et~al.
+\newblock Laser spectroscopy of antihydrogen in the alpha experiment.
+\newblock {\em Nature}, 602(7897):411--415, 2022.
 
 \end{thebibliography}
