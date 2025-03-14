@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex main"] 1741979377.40218 "main.aux" "main.bbl" "main" 1741979700.43047 0
+["bibtex main"] 1741980874.1414 "main.aux" "main.bbl" "main" 1741980877.50565 0
   "./references.bib" 1741979381.868 5209 621234b3d9b809a9e1861db57e45ea84 ""
   "/usr/share/texmf-dist/bibtex/bst/base/unsrt.bst" 1741461196 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "main.aux" 1741979700.24935 17063 fc236519225c7fdff4376073fce42914 "pdflatex"
+  "main.aux" 1741980877.32571 18147 7e22c4ab8f18cc814d6732cafd26cf0a "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1741979697.28341 "/home/makul/projects/papers/anti-matter---vqe/main.tex" "main.pdf" "main" 1741979700.43064 0
-  "/home/makul/projects/papers/anti-matter---vqe/main.tex" 1741979697.09958 31546 d5ff374c9808bd32473e92e33662fd92 ""
+["pdflatex"] 1741980874.19325 "/home/makul/projects/papers/anti-matter---vqe/main.tex" "main.pdf" "main" 1741980877.50582 0
+  "/home/makul/projects/papers/anti-matter---vqe/main.tex" 1741980870.59403 32162 18df62822f2c4f4848a0fd748266a135 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1741461196 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1741461196 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1741461196 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -268,6 +268,7 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1741461196 42087 b0f9697c952c8f5a8eede4134282cb0d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1741829732 5311557 9da84c45f5b388655502706482323571 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1741829716 2686925 fb597686d6dffa047921db987dbe4602 ""
+  "graphs/anti_heh_density_2d.png" 1741978559.15885 185749 7cdd52eefba4ce1e70a50c188679473f ""
   "graphs/anti_heh_density_3d.png" 1741978559.16157 748490 907405d21f4566d8bea9c30c98e3ecad ""
   "graphs/corrected_comparison_pes.png" 1741978559.16357 126349 9911f5bad6b2171f72128f5e494bfdb6 ""
   "graphs/corrected_solvent_effects.png" 1741978559.16457 139841 031a42c6feed31245dd7c94f5d656c17 ""
@@ -288,10 +289,10 @@
   "graphs/vqe_progress_heh+_10.png" 1741978559.16957 34593 54da81be040982d5debaa3ebcea2294e ""
   "graphs/vqe_progress_heh+_100.png" 1741978559.16957 45497 53ae3db888ebb43b73231754d89d2300 ""
   "graphs/vqe_progress_heh+_50.png" 1741978559.17057 42283 5e17787dde645914fdcc14b51ad75b40 ""
-  "main.aux" 1741979700.24935 17063 fc236519225c7fdff4376073fce42914 "pdflatex"
-  "main.bbl" 1741979432.69322 2725 c7dba22908bece51d1cf8003a95617af "bibtex main"
-  "main.out" 1741979700.25035 2470 4dc5d594e3d41f73a801053263ffff56 "pdflatex"
-  "main.tex" 1741979697.09958 31546 d5ff374c9808bd32473e92e33662fd92 ""
+  "main.aux" 1741980877.32571 18147 7e22c4ab8f18cc814d6732cafd26cf0a "pdflatex"
+  "main.bbl" 1741980874.18669 2711 3a8e417d42197237a3d473c69f893d0e "bibtex main"
+  "main.out" 1741980877.32671 2470 4dc5d594e3d41f73a801053263ffff56 "pdflatex"
+  "main.tex" 1741980870.59403 32162 18df62822f2c4f4848a0fd748266a135 ""
   (generated)
   "main.aux"
   "main.log"
