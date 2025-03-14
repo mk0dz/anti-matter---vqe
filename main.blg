@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2025/Arch Linux)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: unsrt.bst
+Database file #1: references.bib
+Warning--empty journal in qiskit2019
+You've used 15 entries,
+            1791 wiz_defined-function locations,
+            547 strings with 6476 characters,
+and the built_in function-call counts, 3904 in all, are:
+= -- 302
+> -- 263
+< -- 0
++ -- 93
+- -- 78
+* -- 346
+:= -- 673
+add.period$ -- 45
+call.type$ -- 15
+change.case$ -- 14
+chr.to.int$ -- 0
+cite$ -- 16
+duplicate$ -- 135
+empty$ -- 336
+format.name$ -- 78
+if$ -- 810
+int.to.chr$ -- 0
+int.to.str$ -- 15
+missing$ -- 16
+newline$ -- 78
+num.names$ -- 15
+pop$ -- 25
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 45
+stack$ -- 0
+substring$ -- 274
+swap$ -- 14
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 35
+width$ -- 17
+write$ -- 164
+(There was 1 warning)
