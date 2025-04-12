@@ -24,10 +24,10 @@
 \usepackage[margin=0.75in]{geometry}
 
 % Title and author information
-\title{\textbf{Quantum Simulation of Anti-Matter Helium Hydride: A Comparative Study of Energy Landscapes Using Variational Quantum Algorithms}}
+\title{\textbf{Quantum Simulation of Anti-Matter Molecular Systems: A Comparative Study of Energy Landscapes Using Variational Quantum Algorithms and the Antinature Software Framework}}
 
 \author{Mukul Kumar\\
-\textit{Indian Institute of Technology, Jodhpur}\\
+\textit{Delhi, India}\\
 \texttt{Mukulpal108@hotmail.com}
 }
 
@@ -38,7 +38,7 @@
 \maketitle
 
 \begin{abstract}
-This paper presents a comprehensive quantum computational study of the anti-matter helium hydride cation (anti-HeH$^+$) in comparison with its normal matter counterpart. Utilizing the variational quantum eigensolver (VQE) framework implemented through Qiskit, we analyze the energetic properties, structural characteristics, and quantum computational challenges associated with simulating these molecular systems. Our results demonstrate a significant energy difference between anti-matter and normal matter HeH$^+$ across varying internuclear distances, with anti-HeH$^+$ showing consistently lower ground state energies in classical simulations but exhibiting distinctive quantum computational behavior. We specifically analyze potential energy surfaces at bond distances ranging from 0.8 to 2.5 Bohr, finding the optimal equilibrium distance for both systems at approximately 0.8 Bohr. We comprehensively analyze electronic density distributions and orbital structures, revealing fundamental differences in electron-nuclei interactions between anti-matter and normal matter systems. Furthermore, we investigated the impact of different error mitigation strategies on quantum computational accuracy through extensive benchmarking, revealing that basic error mitigation techniques offer the most balanced approach for quantum simulations of these systems, with anti-HeH$^+$ showing unique response to error mitigation methods. The progression of VQE optimization is examined across different bond distances and for both molecular systems, revealing convergence patterns critical for future quantum chemical applications. This work represents a significant step toward understanding anti-matter molecular systems through quantum computational methods and highlights the theoretical and computational challenges in accurately modeling exotic molecular species.
+This paper presents a comprehensive quantum computational study of the anti-matter helium hydride cation (anti-HeH$^+$) in comparison with its normal matter counterpart. Utilizing the variational quantum eigensolver (VQE) framework implemented through Qiskit, we analyze the energetic properties, structural characteristics, and quantum computational challenges associated with simulating these molecular systems. Our results demonstrate a significant energy difference between anti-matter and normal matter HeH$^+$ across varying internuclear distances, with anti-HeH$^+$ showing consistently lower ground state energies in classical simulations but exhibiting distinctive quantum computational behavior. We specifically analyze potential energy surfaces at bond distances ranging from 0.8 to 2.5 Bohr, finding the optimal equilibrium distance for both systems at approximately 0.8 Bohr. We comprehensively analyze electronic density distributions and orbital structures, revealing fundamental differences in electron-nuclei interactions between anti-matter and normal matter systems. Furthermore, we investigated the impact of different error mitigation strategies on quantum computational accuracy through extensive benchmarking, revealing that basic error mitigation techniques offer the most balanced approach for quantum simulations of these systems, with anti-HeH$^+$ showing unique response to error mitigation methods. The progression of VQE optimization is examined across different bond distances and for both molecular systems, revealing convergence patterns critical for future quantum chemical applications. Additionally, we introduce Antinature, a comprehensive Python framework for quantum mechanical simulation of antimatter systems, which extends standard electronic structure methods to include antimatter particles, enabling accurate calculations of positronium, anti-hydrogen, and other mixed matter-antimatter systems. This work represents a significant step toward understanding anti-matter molecular systems through quantum computational methods and highlights the theoretical and computational challenges in accurately modeling exotic molecular species.
 \end{abstract}
 
 \section{Introduction}
@@ -47,6 +47,8 @@ Anti-matter, comprising particles with identical mass but opposite charge to the
 The helium hydride ion (HeH$^+$) holds particular significance as the first molecular species to form in the early universe and represents one of the simplest heteronuclear diatomic molecular ions \cite{lee2019first}. Its anti-matter counterpart, anti-HeH$^+$, in which the charges of constituent particles are reversed, provides an excellent testbed for investigating anti-matter molecular physics while remaining computationally tractable \cite{czachorowski2020towards}.
 
 Traditional computational chemistry methods face significant challenges when simulating exotic molecular species due to the approximate nature of electronic structure methods. Quantum computing offers an alternative paradigm, with the potential to provide more accurate results for quantum systems through direct exploitation of quantum mechanical principles \cite{cao2019quantum}. The Variational Quantum Eigensolver (VQE) algorithm, in particular, represents a promising hybrid quantum-classical approach for determining molecular ground state energies on near-term quantum devices \cite{peruzzo2014variational, mcclean2016theory}.
+
+To address these computational challenges, we have developed Antinature, a comprehensive Python framework for quantum mechanical simulation of antimatter systems. Antinature extends standard electronic structure methods to include antimatter particles, enabling accurate calculations of positronium, anti-hydrogen, and anti-HeH$^+$ systems. The framework implements specialized Hamiltonians, wavefunctions, and correlation methods tailored for the unique physics of antimatter, including electron-positron annihilation, relativistic effects, and QED corrections. With its modular architecture, Antinature supports a wide range of computational approaches from basic Hartree-Fock to advanced explicitly correlated multi-reference methods, making it a versatile tool for researchers in positron spectroscopy, materials science, and fundamental physics. The framework is available as an open-source Python package, with comprehensive documentation accessible at \url{https://antinature.dirac.fun}.
 
 In this work, we employed quantum computational methods to investigate the electronic structure and energetic properties of anti-HeH$^+$ compared to normal HeH$^+$, exploring both the fundamental physical differences between these systems and the computational challenges associated with their simulation on quantum hardware. We provide a comprehensive exploration of:
 
@@ -610,6 +612,148 @@ Looking beyond static properties, our analysis of time evolution and wavefunctio
     \label{fig:wavefunction_evolution}
 \end{figure}
 
+\section{The Antinature Software Framework}
+
+\subsection{Overview and Architecture}
+Antinature is a comprehensive Python framework designed specifically for the quantum mechanical simulation of antimatter systems. The framework extends standard electronic structure methods to include antimatter particles, enabling accurate calculations of positronium, anti-hydrogen, anti-HeH$^+$, and other mixed matter-antimatter systems. The core philosophy of Antinature is to provide a versatile, modular toolkit that can be applied across different scales of antimatter simulation, from simple positronium to complex molecular systems containing positrons.
+
+The architecture of Antinature follows a modular design with specialized components:
+
+\begin{itemize}
+    \item \textbf{Core Framework}: Implements specialized Hamiltonians, wavefunctions, and correlation methods tailored for the unique physics of antimatter.
+    
+    \item \textbf{Basis Set Module}: Provides optimized basis functions for antimatter particles, with special emphasis on diffuse functions and explicit electron-positron correlation terms.
+    
+    \item \textbf{Integral Evaluation}: Contains optimized routines for computing the unique integrals required for antimatter systems, including electron-positron interaction and annihilation terms.
+    
+    \item \textbf{Wavefunction Models}: Implements various wavefunction types specialized for positronic systems, from Hartree-Fock to explicitly correlated approaches.
+    
+    \item \textbf{Property Calculators}: Modules for computing observables such as annihilation rates, momentum distributions, and spectroscopic properties.
+    
+    \item \textbf{Quantum Computing Interface}: Provides integration with quantum computing platforms for hybrid quantum-classical simulations of antimatter systems.
+    
+    \item \textbf{Visualization Tools}: Specialized utilities for analyzing and visualizing electron-positron interactions and density distributions.
+\end{itemize}
+
+The framework is implemented in Python, leveraging its flexibility, readability, and extensive scientific computing ecosystem. Core computational routines are accelerated using NumPy, SciPy, and where necessary, optimized low-level libraries through Cython or GPU acceleration via CuPy.
+
+\subsection{Key Features and Capabilities}
+
+\subsubsection{Extended Hamiltonians for Antimatter}
+Antinature implements specialized Hamiltonians that account for the unique physical properties of antimatter systems:
+
+\begin{itemize}
+    \item \textbf{Modified One-Electron Terms}: Adjustments for negative nuclear charges in antimatter systems, changing electron-nucleus attraction to repulsion.
+    
+    \item \textbf{Electron-Positron Interaction}: Properly accounting for the attractive Coulomb interaction between electrons and positrons.
+    
+    \item \textbf{Annihilation Terms}: Implementation of electron-positron annihilation operators using Dirac delta functions.
+    
+    \item \textbf{Relativistic Corrections}: Mass-velocity, Darwin, spin-orbit, and Breit interaction terms.
+    
+    \item \textbf{QED Effects}: Corrections for quantum electrodynamic effects crucial for high-precision calculations.
+\end{itemize}
+
+For positronium (one electron, one positron), the Hamiltonian is implemented as:
+
+\begin{equation}
+    \hat{H}_{Ps} = -\frac{1}{2}\nabla_e^2 - \frac{1}{2}\nabla_p^2 - \frac{1}{|\textbf{r}_e - \textbf{r}_p|} + \hat{H}_{ann}
+\end{equation}
+
+The annihilation operator is modeled as:
+
+\begin{equation}
+    \hat{H}_{ann} = \pi\alpha^2 c \sum_{i,j} \delta(\textbf{r}_i - \textbf{r}_j^p)
+\end{equation}
+
+Where $\alpha$ is the fine structure constant, $c$ is the speed of light, and $\delta$ is the Dirac delta function.
+
+\subsubsection{Specialized Basis Sets}
+Antinature provides specialized basis sets optimized for antimatter simulations:
+
+\begin{itemize}
+    \item \textbf{Enhanced Diffuse Functions}: More diffuse basis functions to accurately describe positrons, which tend to occupy more diffuse orbitals due to nuclear repulsion.
+    
+    \item \textbf{Modified Polarization Functions}: Specialized polarization functions for describing electron-positron correlation.
+    
+    \item \textbf{Explicitly Correlated Basis}: Functions that directly include the electron-positron distance to capture correlation effects efficiently:
+    
+    \begin{equation}
+        \psi(\textbf{r}_e, \textbf{r}_p) = \exp(-\alpha r_e^2) \exp(-\beta r_p^2) \exp(-\gamma |\textbf{r}_e - \textbf{r}_p|^2)
+    \end{equation}
+    
+    \item \textbf{Annihilation-Optimized Basis}: Special functions designed to accurately represent wavefunction behavior at electron-positron coalescence points, crucial for annihilation rate calculations.
+\end{itemize}
+
+\subsubsection{Correlation Methods}
+Electron-positron correlation is crucial for antimatter systems and is treated with specialized methods:
+
+\begin{itemize}
+    \item \textbf{Explicitly Correlated Methods}: Using Gaussian geminals to directly model electron-positron correlation.
+    
+    \item \textbf{Modified MP2}: Perturbation theory extended to include electron-positron interactions.
+    
+    \item \textbf{Configuration Interaction}: Including configurations representing post-annihilation states.
+    
+    \item \textbf{Extended Coupled Cluster}: Specialized for antimatter with explicit $r_{12}$ terms.
+\end{itemize}
+
+\subsubsection{Quantum Computing Integration}
+The framework provides seamless integration with quantum computing platforms:
+
+\begin{itemize}
+    \item \textbf{Hamiltonian Mapping}: Transformation of antimatter Hamiltonians to qubit operators using Jordan-Wigner, Bravyi-Kitaev, or parity mappings.
+    
+    \item \textbf{VQE Implementation}: Specialized ansätze for antimatter systems on quantum hardware.
+    
+    \item \textbf{Error Mitigation}: Techniques tailored for antimatter simulations on noisy quantum hardware.
+    
+    \item \textbf{Hybrid Algorithms}: Combining classical and quantum resources for optimal performance.
+\end{itemize}
+
+\subsubsection{Analysis and Visualization Tools}
+Antinature includes specialized tools for analyzing antimatter systems:
+
+\begin{itemize}
+    \item \textbf{Electron-Positron Density Visualization}: 2D and 3D visualization of electron and positron density distributions.
+    
+    \item \textbf{Annihilation Rate Analysis}: Tools for calculating and visualizing positron annihilation rates and positron lifetimes.
+    
+    \item \textbf{Molecular Orbital Analysis}: Visualization of molecular orbitals in systems containing positrons.
+    
+    \item \textbf{Energy Decomposition}: Breaking down energy contributions in antimatter systems.
+\end{itemize}
+
+\subsection{Applications and Use Cases}
+The Antinature framework is designed to support a variety of applications in antimatter research:
+
+\begin{itemize}
+    \item \textbf{Fundamental Antimatter Physics}: Accurate calculations of positronium, antihydrogen, and other simple antimatter systems for comparison with experimental results and tests of fundamental theories.
+    
+    \item \textbf{Positron Chemistry}: Investigation of positron binding to molecules and positron-molecule complexes, relevant for understanding positron annihilation in molecular environments.
+    
+    \item \textbf{Materials Characterization}: Modeling of positron annihilation lifetime spectroscopy (PALS) for material defect characterization, with applications in porosity analysis and defect identification.
+    
+    \item \textbf{Anti-Matter Molecular Design}: Exploration of hypothetical antimatter molecular systems and prediction of their properties.
+    
+    \item \textbf{Quantum Computing Research}: Serving as a testbed for quantum algorithms applied to challenging quantum chemical problems.
+\end{itemize}
+
+The framework has been applied successfully to the anti-HeH$^+$ system described in this paper, demonstrating its capability to handle antimatter molecular systems with quantum accuracy.
+
+\subsection{Software Availability and Documentation}
+Antinature is available as an open-source Python package, with comprehensive documentation accessible at \url{https://antinature.dirac.fun}. The documentation includes:
+
+\begin{itemize}
+    \item Installation instructions and dependencies
+    \item Theoretical background and methodology descriptions
+    \item API reference and function documentation
+    \item Tutorials and example calculations
+    \item Benchmark results and validation studies
+\end{itemize}
+
+The framework is designed to be accessible to researchers with backgrounds in quantum chemistry, positron physics, or materials science, while still providing the flexibility and depth required for cutting-edge antimatter research.
+
 \section{Conclusion}
 In this work, we have conducted a comprehensive quantum computational study of the anti-matter helium hydride cation (anti-HeH$^+$) in comparison with its normal matter counterpart. Our findings reveal significant differences in the energetic properties, structural characteristics, and quantum computational behavior of these molecular systems.
 
@@ -624,8 +768,9 @@ The connections to experimental anti-matter research established in this work of
 This work represents a significant step toward understanding anti-matter molecular systems through quantum computational methods and highlights both the theoretical and computational challenges in accurately modeling exotic molecular species. Future work should focus on expanding the basis set, implementing more sophisticated error mitigation techniques, and exploring more complex anti-matter molecular systems to further bridge the gap between theoretical predictions and experimental observations.
 
 \section{Acknowledgements}
-We thank IBM Quantum for providing access to quantum computing resources through the IBM Quantum Experience. Special thanks to the advisors and research collaborators who provided valuable feedback and discussions throughout this work.
+We gratefully acknowledge the foundational contributions of Dr. Paul Dirac, whose revolutionary equation predicted the existence of antimatter and fundamentally changed our understanding of quantum physics. His theoretical insights continue to guide the development of computational methods for antimatter systems nearly a century later. We also extend our appreciation to Richard Feynman, whose visionary proposal of quantum computers as simulators for quantum systems has directly inspired the quantum computing components of this work. Feynman's insight that "nature isn't classical, dammit, and if you want to make a simulation of nature, you'd better make it quantum mechanical" provides the philosophical foundation for our quantum circuit implementations.
 
+We thank IBM Quantum for providing access to quantum computing resources through the IBM Quantum Experience. Special thanks to the authors of the referenced papers for their valuable contributions to the field of anti-matter research.
 \bibliographystyle{unsrt}
 \bibliography{references}
 

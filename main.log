@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Arch Linux) (preloaded format=pdflatex 2025.3.13)  15 MAR 2025 02:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.4.6)  12 APR 2025 14:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -771,212 +771,237 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 
 
-{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-Underfull \hbox (badness 2744) in paragraph at lines 65--65
+]
+Underfull \hbox (badness 2744) in paragraph at lines 67--67
 []\T1/cmr/bx/n/12 (+20) Quantum Com-pu-ta-tional Frame-
  []
 
+
+
 <xymatrix 8x4 2126>
 
-<xymatrix 6x4 1102> <xymatrix 6x4 1590> <xymatrix 8x4 2382> <xymatrix 7x4 1532> <xymatrix 5x4 1316> <xymatrix 4x4 798>
-<graphs/corrected_comparison_pes.png, id=112, 626.34pt x 394.5942pt>
+[2{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] <xymatrix 6x4 1102> <xymatrix 6x4 1590> <xymatrix 8x4 2382> <xymatrix 7x4 1532> <xymatrix 5x4 1316> <xymatrix 4x4 798>
+<graphs/corrected_comparison_pes.png, id=171, 626.34pt x 394.5942pt>
 File: graphs/corrected_comparison_pes.png Graphic file (type png)
 <use graphs/corrected_comparison_pes.png>
-Package pdftex.def Info: graphs/corrected_comparison_pes.png  used on input line 236.
+Package pdftex.def Info: graphs/corrected_comparison_pes.png  used on input line 238.
 (pdftex.def)             Requested size: 239.55144pt x 150.91672pt.
-<graphs/anti_heh_refined_pes.png, id=114, 619.8357pt x 394.5942pt>
+
+
+<graphs/anti_heh_refined_pes.png, id=173, 619.8357pt x 394.5942pt>
 File: graphs/anti_heh_refined_pes.png Graphic file (type png)
 <use graphs/anti_heh_refined_pes.png>
-Package pdftex.def Info: graphs/anti_heh_refined_pes.png  used on input line 245.
+Package pdftex.def Info: graphs/anti_heh_refined_pes.png  used on input line 247.
 (pdftex.def)             Requested size: 239.55144pt x 152.50024pt.
 
 
-[2]
-
-
-LaTeX Warning: Text page 3 contains only floats.
-
-
-
 [3]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 <xymatrix 8x8 1780>
-
-[4 <./graphs/corrected_comparison_pes.png> <./graphs/anti_heh_refined_pes.png>]
-<graphs/anti_heh_density_3d.png, id=162, 684.8787pt x 567.3195pt>
+<graphs/anti_heh_density_3d.png, id=196, 684.8787pt x 567.3195pt>
 File: graphs/anti_heh_density_3d.png Graphic file (type png)
 <use graphs/anti_heh_density_3d.png>
-Package pdftex.def Info: graphs/anti_heh_density_3d.png  used on input line 335.
+Package pdftex.def Info: graphs/anti_heh_density_3d.png  used on input line 337.
 (pdftex.def)             Requested size: 239.55144pt x 198.42628pt.
-<graphs/anti_heh_density_2d.png, id=163, 592.1322pt x 505.89pt>
+<graphs/anti_heh_density_2d.png, id=197, 592.1322pt x 505.89pt>
 File: graphs/anti_heh_density_2d.png Graphic file (type png)
 <use graphs/anti_heh_density_2d.png>
-Package pdftex.def Info: graphs/anti_heh_density_2d.png  used on input line 342.
+Package pdftex.def Info: graphs/anti_heh_density_2d.png  used on input line 344.
 (pdftex.def)             Requested size: 239.55144pt x 204.66046pt.
 
 
+[4 <./graphs/corrected_comparison_pes.png> <./graphs/anti_heh_refined_pes.png>]
 
-Underfull \hbox (badness 2717) in paragraph at lines 351--351
-[]\T1/cmr/bx/n/12 (+20) Quantum Com-pu-ta-tional Per-for-
- []
+LaTeX Warning: Text page 5 contains only floats.
 
-<graphs/quantum_error_analysis.png, id=167, 867.24pt x 433.62pt>
-File: graphs/quantum_error_analysis.png Graphic file (type png)
-<use graphs/quantum_error_analysis.png>
-Package pdftex.def Info: graphs/quantum_error_analysis.png  used on input line 358.
-(pdftex.def)             Requested size: 239.55144pt x 119.77188pt.
-<graphs/quantum_comparison_distance_0.80.png, id=172, 867.24pt x 433.62pt>
-File: graphs/quantum_comparison_distance_0.80.png Graphic file (type png)
-<use graphs/quantum_comparison_distance_0.80.png>
-Package pdftex.def Info: graphs/quantum_comparison_distance_0.80.png  used on input line 369.
-(pdftex.def)             Requested size: 239.55144pt x 119.77188pt.
-<graphs/quantum_comparison_distance_1.50.png, id=173, 867.24pt x 433.62pt>
-File: graphs/quantum_comparison_distance_1.50.png Graphic file (type png)
-<use graphs/quantum_comparison_distance_1.50.png>
-Package pdftex.def Info: graphs/quantum_comparison_distance_1.50.png  used on input line 376.
-(pdftex.def)             Requested size: 239.55144pt x 119.77188pt.
-<graphs/quantum_comparison_distance_2.50.png, id=174, 867.24pt x 433.62pt>
-File: graphs/quantum_comparison_distance_2.50.png Graphic file (type png)
-<use graphs/quantum_comparison_distance_2.50.png>
-Package pdftex.def Info: graphs/quantum_comparison_distance_2.50.png  used on input line 383.
-(pdftex.def)             Requested size: 239.55144pt x 119.77188pt.
+
+Overfull \vbox (2.44458pt too high) has occurred while \output is active []
+
+
+
 
 
 [5 <./graphs/anti_heh_density_3d.png> <./graphs/anti_heh_density_2d.png>]
-Overfull \hbox (30.97504pt too wide) in paragraph at lines 394--403
+Underfull \hbox (badness 2717) in paragraph at lines 353--353
+[]\T1/cmr/bx/n/12 (+20) Quantum Com-pu-ta-tional Per-for-
+ []
+
+<graphs/quantum_error_analysis.png, id=218, 867.24pt x 433.62pt>
+File: graphs/quantum_error_analysis.png Graphic file (type png)
+<use graphs/quantum_error_analysis.png>
+Package pdftex.def Info: graphs/quantum_error_analysis.png  used on input line 360.
+(pdftex.def)             Requested size: 239.55144pt x 119.77188pt.
+<graphs/quantum_comparison_distance_0.80.png, id=223, 867.24pt x 433.62pt>
+File: graphs/quantum_comparison_distance_0.80.png Graphic file (type png)
+<use graphs/quantum_comparison_distance_0.80.png>
+Package pdftex.def Info: graphs/quantum_comparison_distance_0.80.png  used on input line 371.
+(pdftex.def)             Requested size: 239.55144pt x 119.77188pt.
+<graphs/quantum_comparison_distance_1.50.png, id=224, 867.24pt x 433.62pt>
+File: graphs/quantum_comparison_distance_1.50.png Graphic file (type png)
+<use graphs/quantum_comparison_distance_1.50.png>
+Package pdftex.def Info: graphs/quantum_comparison_distance_1.50.png  used on input line 378.
+(pdftex.def)             Requested size: 239.55144pt x 119.77188pt.
+<graphs/quantum_comparison_distance_2.50.png, id=225, 867.24pt x 433.62pt>
+File: graphs/quantum_comparison_distance_2.50.png Graphic file (type png)
+<use graphs/quantum_comparison_distance_2.50.png>
+Package pdftex.def Info: graphs/quantum_comparison_distance_2.50.png  used on input line 385.
+(pdftex.def)             Requested size: 239.55144pt x 119.77188pt.
+
+Overfull \hbox (30.97504pt too wide) in paragraph at lines 396--405
  [][] 
  []
 
 
 
-<graphs/error_mitigation_impact.png, id=191, 867.24pt x 433.62pt>
+
+Underfull \vbox (badness 6493) has occurred while \output is active []
+
+
+
+[6 <./graphs/quantum_error_analysis.png> <./graphs/quantum_comparison_distance_0.80.png> <./graphs/quantum_comparison_distance_1.50.png> <./graphs/quantum_comparison_distance_2.50.png>]
+<graphs/error_mitigation_impact.png, id=242, 867.24pt x 433.62pt>
 File: graphs/error_mitigation_impact.png Graphic file (type png)
 <use graphs/error_mitigation_impact.png>
-Package pdftex.def Info: graphs/error_mitigation_impact.png  used on input line 418.
+Package pdftex.def Info: graphs/error_mitigation_impact.png  used on input line 420.
 (pdftex.def)             Requested size: 239.55144pt x 119.77188pt.
+ <xymatrix 7x4 1532>
 
 
-[6 <./graphs/quantum_error_analysis.png> <./graphs/quantum_comparison_distance_0.80.png> <./graphs/quantum_comparison_distance_1.50.png> <./graphs/quantum_comparison_distance_2.50.png> <./graphs/error_mitigation_impact.png>] <xymatrix 7x4 1532>
 
-<graphs/vqe_final_anti_heh+.png, id=213, 722.7pt x 433.62pt>
+[7 <./graphs/error_mitigation_impact.png>]
+<graphs/vqe_final_anti_heh+.png, id=264, 722.7pt x 433.62pt>
 File: graphs/vqe_final_anti_heh+.png Graphic file (type png)
 <use graphs/vqe_final_anti_heh+.png>
-Package pdftex.def Info: graphs/vqe_final_anti_heh+.png  used on input line 478.
+Package pdftex.def Info: graphs/vqe_final_anti_heh+.png  used on input line 480.
 (pdftex.def)             Requested size: 239.55144pt x 143.73022pt.
 
 
-[7]
-<graphs/vqe_progress_anti_heh+_10.png, id=228, 722.7pt x 433.62pt>
+<graphs/vqe_progress_anti_heh+_10.png, id=267, 722.7pt x 433.62pt>
 File: graphs/vqe_progress_anti_heh+_10.png Graphic file (type png)
 <use graphs/vqe_progress_anti_heh+_10.png>
-Package pdftex.def Info: graphs/vqe_progress_anti_heh+_10.png  used on input line 500.
+Package pdftex.def Info: graphs/vqe_progress_anti_heh+_10.png  used on input line 502.
 (pdftex.def)             Requested size: 156.5165pt x 93.90797pt.
-<graphs/vqe_progress_anti_heh+_50.png, id=229, 722.7pt x 433.62pt>
+<graphs/vqe_progress_anti_heh+_50.png, id=268, 722.7pt x 433.62pt>
 File: graphs/vqe_progress_anti_heh+_50.png Graphic file (type png)
 <use graphs/vqe_progress_anti_heh+_50.png>
-Package pdftex.def Info: graphs/vqe_progress_anti_heh+_50.png  used on input line 506.
+Package pdftex.def Info: graphs/vqe_progress_anti_heh+_50.png  used on input line 508.
 (pdftex.def)             Requested size: 156.5165pt x 93.90797pt.
-<graphs/vqe_progress_anti_heh+_100.png, id=230, 722.7pt x 433.62pt>
+<graphs/vqe_progress_anti_heh+_100.png, id=269, 722.7pt x 433.62pt>
 File: graphs/vqe_progress_anti_heh+_100.png Graphic file (type png)
 <use graphs/vqe_progress_anti_heh+_100.png>
-Package pdftex.def Info: graphs/vqe_progress_anti_heh+_100.png  used on input line 512.
+Package pdftex.def Info: graphs/vqe_progress_anti_heh+_100.png  used on input line 514.
 (pdftex.def)             Requested size: 156.5165pt x 93.90797pt.
-<graphs/vqe_progress_heh+_10.png, id=231, 722.7pt x 433.62pt>
+<graphs/vqe_progress_heh+_10.png, id=270, 722.7pt x 433.62pt>
 File: graphs/vqe_progress_heh+_10.png Graphic file (type png)
 <use graphs/vqe_progress_heh+_10.png>
-Package pdftex.def Info: graphs/vqe_progress_heh+_10.png  used on input line 523.
+Package pdftex.def Info: graphs/vqe_progress_heh+_10.png  used on input line 525.
 (pdftex.def)             Requested size: 156.5165pt x 93.90797pt.
-<graphs/vqe_progress_heh+_50.png, id=232, 722.7pt x 433.62pt>
+<graphs/vqe_progress_heh+_50.png, id=271, 722.7pt x 433.62pt>
 File: graphs/vqe_progress_heh+_50.png Graphic file (type png)
 <use graphs/vqe_progress_heh+_50.png>
-Package pdftex.def Info: graphs/vqe_progress_heh+_50.png  used on input line 529.
+Package pdftex.def Info: graphs/vqe_progress_heh+_50.png  used on input line 531.
 (pdftex.def)             Requested size: 156.5165pt x 93.90797pt.
-<graphs/vqe_progress_heh+_100.png, id=233, 722.7pt x 433.62pt>
+<graphs/vqe_progress_heh+_100.png, id=272, 722.7pt x 433.62pt>
 File: graphs/vqe_progress_heh+_100.png Graphic file (type png)
 <use graphs/vqe_progress_heh+_100.png>
-Package pdftex.def Info: graphs/vqe_progress_heh+_100.png  used on input line 535.
+Package pdftex.def Info: graphs/vqe_progress_heh+_100.png  used on input line 537.
 (pdftex.def)             Requested size: 156.5165pt x 93.90797pt.
-<graphs/vqe_parameters_anti_heh+.png, id=236, 722.7pt x 433.62pt>
+<graphs/vqe_parameters_anti_heh+.png, id=275, 722.7pt x 433.62pt>
 File: graphs/vqe_parameters_anti_heh+.png Graphic file (type png)
 <use graphs/vqe_parameters_anti_heh+.png>
-Package pdftex.def Info: graphs/vqe_parameters_anti_heh+.png  used on input line 547.
+Package pdftex.def Info: graphs/vqe_parameters_anti_heh+.png  used on input line 549.
 (pdftex.def)             Requested size: 239.55144pt x 143.73022pt.
-<graphs/vqe_parameters_heh+.png, id=237, 722.7pt x 433.62pt>
+<graphs/vqe_parameters_heh+.png, id=276, 722.7pt x 433.62pt>
 File: graphs/vqe_parameters_heh+.png Graphic file (type png)
 <use graphs/vqe_parameters_heh+.png>
-Package pdftex.def Info: graphs/vqe_parameters_heh+.png  used on input line 554.
+Package pdftex.def Info: graphs/vqe_parameters_heh+.png  used on input line 556.
 (pdftex.def)             Requested size: 239.55144pt x 143.73022pt.
 
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 574--574
+Underfull \hbox (badness 10000) in paragraph at lines 576--576
 []\T1/cmr/bx/n/10 (+20) Connections to Ex-per-i-men-tal Anti-
  []
 
 
 
 [8 <./graphs/vqe_final_anti_heh+.png>]
-<graphs/quantum_vs_classical_energies.png, id=256, 867.24pt x 433.62pt>
+
+
+
+[9 <./graphs/vqe_progress_anti_heh+_10.png> <./graphs/vqe_progress_anti_heh+_50.png> <./graphs/vqe_progress_anti_heh+_100.png> <./graphs/vqe_progress_heh+_10.png> <./graphs/vqe_progress_heh+_50.png> <./graphs/vqe_progress_heh+_100.png> <./graphs/vqe_parameters_anti_heh+.png> <./graphs/vqe_parameters_heh+.png>]
+<graphs/quantum_vs_classical_energies.png, id=310, 867.24pt x 433.62pt>
 File: graphs/quantum_vs_classical_energies.png Graphic file (type png)
 <use graphs/quantum_vs_classical_energies.png>
-Package pdftex.def Info: graphs/quantum_vs_classical_energies.png  used on input line 587.
+Package pdftex.def Info: graphs/quantum_vs_classical_energies.png  used on input line 589.
 (pdftex.def)             Requested size: 239.55144pt x 119.77188pt.
-<graphs/corrected_solvent_effects.png, id=257, 859.7721pt x 425.1885pt>
+<graphs/corrected_solvent_effects.png, id=311, 859.7721pt x 425.1885pt>
 File: graphs/corrected_solvent_effects.png Graphic file (type png)
 <use graphs/corrected_solvent_effects.png>
-Package pdftex.def Info: graphs/corrected_solvent_effects.png  used on input line 594.
+Package pdftex.def Info: graphs/corrected_solvent_effects.png  used on input line 596.
 (pdftex.def)             Requested size: 239.55144pt x 118.46156pt.
-<graphs/corrected_time_evolution.png, id=258, 860.013pt x 714.5094pt>
+<graphs/corrected_time_evolution.png, id=312, 860.013pt x 714.5094pt>
 File: graphs/corrected_time_evolution.png Graphic file (type png)
 <use graphs/corrected_time_evolution.png>
-Package pdftex.def Info: graphs/corrected_time_evolution.png  used on input line 601.
+Package pdftex.def Info: graphs/corrected_time_evolution.png  used on input line 603.
 (pdftex.def)             Requested size: 239.55144pt x 199.01462pt.
-<graphs/corrected_wavefunction_evolution.png, id=259, 1078.2684pt x 569.7285pt>
+<graphs/corrected_wavefunction_evolution.png, id=313, 1078.2684pt x 569.7285pt>
 File: graphs/corrected_wavefunction_evolution.png Graphic file (type png)
 <use graphs/corrected_wavefunction_evolution.png>
-Package pdftex.def Info: graphs/corrected_wavefunction_evolution.png  used on input line 608.
+Package pdftex.def Info: graphs/corrected_wavefunction_evolution.png  used on input line 610.
 (pdftex.def)             Requested size: 239.55144pt x 126.56642pt.
 
 
 
 
-[9 <./graphs/vqe_progress_anti_heh+_10.png> <./graphs/vqe_progress_anti_heh+_50.png> <./graphs/vqe_progress_anti_heh+_100.png> <./graphs/vqe_progress_heh+_10.png> <./graphs/vqe_progress_heh+_50.png> <./graphs/vqe_progress_heh+_100.png> <./graphs/vqe_parameters_anti_heh+.png> <./graphs/vqe_parameters_heh+.png>]
-
-(./main.bbl
-
-[10 <./graphs/quantum_vs_classical_energies.png> <./graphs/corrected_solvent_effects.png> <./graphs/corrected_time_evolution.png> <./graphs/corrected_wavefunction_evolution.png>])
+[10 <./graphs/quantum_vs_classical_energies.png> <./graphs/corrected_solvent_effects.png> <./graphs/corrected_time_evolution.png> <./graphs/corrected_wavefunction_evolution.png>]
 
 
 
-[11
+[11]
+Underfull \hbox (badness 3019) in paragraph at lines 735--736
+[]\T1/cmr/bx/n/10 (+20) Materials Char-ac-ter-i-za-tion\T1/cmr/m/n/10 (+20) : Mod-el-ing of
+ []
 
-] (./main.aux)
+
+
+
+
+[12] (./main.bbl
+
+)
+
+[13] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7460B7E624E3EC7B346009FF34C99092;3665.
+(rerunfilecheck)             Checksum: EE7CCEB0C1E96D825CF2EA35ABC9734A;5806.
  ) 
 Here is how much of TeX's memory you used:
- 38486 strings out of 475171
- 845820 string characters out of 5767103
- 1488810 words of memory out of 5000000
- 60609 multiletter control sequences out of 15000+600000
- 587234 words of font info for 198 fonts, out of 8000000 for 9000
+ 38546 strings out of 475171
+ 846615 string characters out of 5767096
+ 1476891 words of memory out of 5000000
+ 60625 multiletter control sequences out of 15000+600000
+ 590046 words of font info for 214 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 99i,25n,101p,1941b,2528s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (11 pages, 2339920 bytes).
+ 99i,25n,101p,2260b,2528s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on main.pdf (13 pages, 2379397 bytes).
 PDF statistics:
- 395 PDF objects out of 1000 (max. 8388607)
- 295 compressed objects within 3 object streams
- 86 named destinations out of 1000 (max. 500000)
- 49945 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 457 PDF objects out of 1000 (max. 8388607)
+ 352 compressed objects within 4 object streams
+ 101 named destinations out of 1000 (max. 500000)
+ 54633 words of extra memory for PDF output out of 61914 (max. 10000000)
 
