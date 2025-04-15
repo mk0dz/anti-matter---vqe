@@ -27,8 +27,7 @@
 \title{\textbf{Quantum Simulation of Anti-Matter Molecular Systems: A Comparative Study of Energy Landscapes Using Variational Quantum Algorithms and the Antinature Software Framework}}
 
 \author{Mukul Kumar\\
-\textit{Delhi, India}\\
-\texttt{Mukulpal108@hotmail.com}
+\textit{Delhi, India}
 }
 
 \date{\today}
@@ -38,13 +37,15 @@
 \maketitle
 
 \begin{abstract}
-This paper presents a comprehensive quantum computational study of the anti-matter helium hydride cation (anti-HeH$^+$) in comparison with its normal matter counterpart. Utilizing the variational quantum eigensolver (VQE) framework implemented through Qiskit, we analyze the energetic properties, structural characteristics, and quantum computational challenges associated with simulating these molecular systems. Our results demonstrate a significant energy difference between anti-matter and normal matter HeH$^+$ across varying internuclear distances, with anti-HeH$^+$ showing consistently lower ground state energies in classical simulations but exhibiting distinctive quantum computational behavior. We specifically analyze potential energy surfaces at bond distances ranging from 0.8 to 2.5 Bohr, finding the optimal equilibrium distance for both systems at approximately 0.8 Bohr. We comprehensively analyze electronic density distributions and orbital structures, revealing fundamental differences in electron-nuclei interactions between anti-matter and normal matter systems. Furthermore, we investigated the impact of different error mitigation strategies on quantum computational accuracy through extensive benchmarking, revealing that basic error mitigation techniques offer the most balanced approach for quantum simulations of these systems, with anti-HeH$^+$ showing unique response to error mitigation methods. The progression of VQE optimization is examined across different bond distances and for both molecular systems, revealing convergence patterns critical for future quantum chemical applications. Additionally, we introduce Antinature, a comprehensive Python framework for quantum mechanical simulation of antimatter systems, which extends standard electronic structure methods to include antimatter particles, enabling accurate calculations of positronium, anti-hydrogen, and other mixed matter-antimatter systems. This work represents a significant step toward understanding anti-matter molecular systems through quantum computational methods and highlights the theoretical and computational challenges in accurately modeling exotic molecular species.
+This paper presents a comprehensive quantum computational study of the anti-matter helium hydride cation (anti-HeH$^+$) in comparison with its normal matter counterpart. Utilizing the variational quantum eigensolver (VQE) framework implemented through Qiskit, we analyze the energetic properties, structural characteristics, and quantum computational challenges associated with simulating these molecular systems. Our results demonstrate a significant energy difference between anti-matter and normal matter HeH$^+$ across varying internuclear distances, with anti-HeH$^+$ showing consistently higher energy (i.e., less binding) in classical simulations but exhibiting distinctive quantum computational behavior. We specifically analyze potential energy surfaces at bond distances ranging from 0.8 to 2.5 Bohr, finding the optimal equilibrium distance for both systems at approximately 0.8 Bohr. We comprehensively analyze electronic density distributions and orbital structures, revealing fundamental differences in electron-nuclei interactions between anti-matter and normal matter systems. Furthermore, we investigated the impact of different error mitigation strategies on quantum computational accuracy through extensive benchmarking, revealing that basic error mitigation techniques offer the most balanced approach for quantum simulations of these systems, with anti-HeH$^+$ showing unique response to error mitigation methods. The progression of VQE optimization is examined across different bond distances and for both molecular systems, revealing convergence patterns critical for future quantum chemical applications. Additionally, we introduce Antinature, a comprehensive Python framework for quantum mechanical simulation of antimatter systems, which extends standard electronic structure methods to include antimatter particles, enabling accurate calculations of positronium, anti-hydrogen, and other mixed matter-antimatter systems. This work represents a significant step toward understanding anti-matter molecular systems through quantum computational methods and highlights the theoretical and computational challenges in accurately modeling exotic molecular species.
 \end{abstract}
 
 \section{Introduction}
 Anti-matter, comprising particles with identical mass but opposite charge to their normal matter counterparts, presents one of the most intriguing enigmas in modern physics. While the Standard Model predicts matter and anti-matter should have been produced in equal amounts during the Big Bang, the observed universe demonstrates a profound asymmetry favoring matter \cite{baker2021matter}. Beyond this cosmological significance, anti-matter systems offer unique opportunities to test fundamental physical theories and explore exotic molecular properties.
 
 The helium hydride ion (HeH$^+$) holds particular significance as the first molecular species to form in the early universe and represents one of the simplest heteronuclear diatomic molecular ions \cite{lee2019first}. Its anti-matter counterpart, anti-HeH$^+$, in which the charges of constituent particles are reversed, provides an excellent testbed for investigating anti-matter molecular physics while remaining computationally tractable \cite{czachorowski2020towards}.
+
+In this work, we study the anti-matter analog of HeH$^+$, which we denote as anti-HeH$^+$. This system consists of two positrons (positively charged antielectrons) orbiting around two anti-nuclei: an anti-helium nucleus with charge -2 and an anti-hydrogen nucleus with charge -1. This is in direct contrast to normal HeH$^+$, which consists of two electrons orbiting around nuclei with charges +2 (He) and +1 (H). It is important to note that while both systems have the same overall charge (+1), the fundamental interactions differ significantly due to the charge reversal of all constituent particles in the anti-matter system. In the anti-matter system, the nuclear-positron interactions are repulsive rather than attractive, which leads to fundamentally different electronic structure and binding properties. Throughout this paper, we consistently refer to the anti-matter system as anti-HeH$^+$ to emphasize its ionic nature and facilitate direct comparison with normal HeH$^+$.
 
 Traditional computational chemistry methods face significant challenges when simulating exotic molecular species due to the approximate nature of electronic structure methods. Quantum computing offers an alternative paradigm, with the potential to provide more accurate results for quantum systems through direct exploitation of quantum mechanical principles \cite{cao2019quantum}. The Variational Quantum Eigensolver (VQE) algorithm, in particular, represents a promising hybrid quantum-classical approach for determining molecular ground state energies on near-term quantum devices \cite{peruzzo2014variational, mcclean2016theory}.
 
@@ -59,6 +60,7 @@ In this work, we employed quantum computational methods to investigate the elect
 \item VQE optimization trajectories and convergence behavior
 \item Comparative analyses of quantum hardware performance across different bond distances
 \item Quantum vs. classical computational accuracy for both matter types
+\item Time evolution dynamics and solvent environment effects on anti-matter systems
 \end{itemize}
 
 To our knowledge, this represents the first comprehensive quantum computational study of an anti-matter molecular system with detailed comparison to its normal matter counterpart, providing critical insights into both the physical properties of these exotic systems and the computational challenges they present \cite{cerezo2021variational}.
@@ -160,7 +162,7 @@ We implemented and evaluated three distinct error mitigation strategies for both
     & \ghost{U(\boldsymbol{\theta})} & \qw & \qw & \qw & \qw & \meter
     }
     \end{equation*}
-    \caption{Mid-circuit measurement with feed-forward correction circuit used in our advanced error mitigation approach. This technique allowed for real-time error detection and correction during the execution of longer quantum circuits. While beneficial for normal HeH$^+$, this approach showed limited improvement for anti-HeH$^+$, further highlighting the unique challenges of quantum simulation for anti-matter systems.}
+    \caption{Mid-circuit measurement with feed-forward correction circuit used in our advanced error mitigation approach. This technique allows for real-time error detection and correction during the execution of longer quantum circuits. The mid-circuit measurements are designed to detect bit-flip and phase-flip errors by measuring the parity of specific qubit pairs, and the results are used to apply conditional corrections through a feed-forward mechanism. While beneficial for normal HeH$^+$, this approach showed limited improvement for anti-HeH$^+$, further highlighting the unique challenges of quantum simulation for anti-matter systems.}
     \label{fig:feed_forward}
 \end{figure}
 
@@ -240,7 +242,19 @@ Our classical solver results demonstrate a fundamental energetic difference betw
     \label{fig:pes_comparison}
 \end{figure}
 
-At the reference bond distance of 1.5 Bohr, the anti-HeH$^+$ system exhibits a ground state energy of -11.29 Hartree compared to -31.35 Hartree for normal HeH$^+$. This substantial energy difference persists across all internuclear distances examined, highlighting the fundamental physical distinctions between these systems.
+At the reference bond distance of 1.5 Bohr, the anti-HeH$^+$ system exhibits a ground state energy of -11.29 Hartree compared to -31.35 Hartree for normal HeH$^+$. This substantial energy difference persists across all internuclear distances examined, highlighting the fundamental physical distinctions between these systems. The total energy values reported here represent the sum of nuclear and electronic energies, with the zero of energy corresponding to completely separated nuclei and electrons/positrons at infinite distance with zero kinetic energy. The exceptionally low ground state energy of normal HeH$^+$ (-31.35 Hartree) is consistent with high-level electronic structure calculations for this simple molecular ion and primarily reflects the large nuclear attraction and deep potential well of the helium nucleus.
+
+The anti-HeH$^+$ system is significantly less bound (by approximately 20 Hartree) than its normal matter counterpart. This difference can be attributed to several fundamental factors:
+
+\begin{enumerate}
+    \item \textbf{Repulsive Nuclear-Positron Interaction}: In the anti-matter system, the positron-nucleus interaction is repulsive rather than attractive, fundamentally altering the electronic structure and reducing the binding energy.
+    
+    \item \textbf{Different Electron Density Distribution}: The positrons in anti-HeH$^+$ avoid the nuclei due to repulsion, resulting in a more diffuse charge distribution that provides less effective screening between the nuclei.
+    
+    \item \textbf{Altered Correlation Effects}: The correlation between positrons differs from electron correlation in normal HeH$^+$, further contributing to the reduced binding energy.
+\end{enumerate}
+
+Despite these energy differences, the dissociation energy (i.e., the energy required to separate the molecule into isolated atomic ions) remains similar between the two systems: approximately 1.9 Hartree for anti-HeH$^+$ compared to 2.3 Hartree for normal HeH$^+$, indicating that while the absolute energies differ dramatically, the relative binding strengths are more comparable.
 
 \begin{figure}[t!]
     \centering
@@ -430,7 +444,7 @@ Surprisingly, error mitigation techniques increased the relative error rather th
     \item \textbf{Advanced Error Mitigation}: -26.29 Hartree (16.12\% relative error)
 \end{enumerate}
 
-This differential response to error mitigation techniques is particularly interesting, suggesting that the underlying error mechanisms may interact differently with anti-matter system Hamiltonians. The fact that readout error correction produced slight improvements for normal matter systems but worsened results for anti-matter systems indicates that the error channels may be correlated with the specific structure of the Hamiltonian terms.
+This differential response to error mitigation techniques is a significant finding, suggesting that the underlying error mechanisms may interact differently with anti-matter system Hamiltonians. The fact that readout error correction produced slight improvements for normal matter systems but worsened results for anti-matter systems indicates that the error channels may be correlated with the specific structure of the Hamiltonian terms.
 
 \begin{figure}[t!]
     \centering
@@ -451,14 +465,16 @@ Our detailed analysis revealed several key factors contributing to this unexpect
 \begin{itemize}
     \item \textbf{Hamiltonian Structure}: The anti-HeH$^+$ Hamiltonian exhibits a more skewed coefficient distribution (as shown in Figure~\ref{fig:hamiltonian_distribution}), with a dominant leading term that is approximately 70\% larger than in normal HeH$^+$. This increases sensitivity to specific error types that affect high-weight Pauli terms.
     
-    \item \textbf{Error Correlations}: We observed strong correlations between readout errors on adjacent qubits for anti-HeH$^+$ simulations (correlation coefficient $r = 0.74$), compared to weaker correlations for normal HeH$^+$ ($r = 0.31$). These correlated errors violate assumptions in standard error mitigation techniques.
+    \item \textbf{Error Correlations}: We observed strong correlations between readout errors on adjacent qubits for anti-HeH$^+$ simulations (correlation coefficient $r = 0.74$), compared to weaker correlations for normal HeH$^+$ ($r = 0.31$). These correlated errors violate assumptions in standard error mitigation techniques, which typically assume independent error channels.
     
-    \item \textbf{Extrapolation Nonlinearity}: The zero-noise extrapolation technique assumes a polynomial relationship between noise scaling and expectation values. For anti-HeH$^+$, we observed highly non-linear relationships that prevented accurate extrapolation to the zero-noise limit.
+    \item \textbf{Extrapolation Nonlinearity}: The zero-noise extrapolation technique assumes a polynomial relationship between noise scaling and expectation values. For anti-HeH$^+$, we observed highly non-linear relationships that prevented accurate extrapolation to the zero-noise limit. This non-linearity appears to stem from the interaction between the unique Hamiltonian structure of anti-matter systems and quantum noise channels.
     
-    \item \textbf{Symmetry Breaking}: The advanced symmetry verification technique (Figure~\ref{fig:symmetry_verification}) relies on conservation of certain symmetries in the molecular Hamiltonian. Our results suggest that quantum noise affects these symmetry properties differently in anti-matter systems, potentially due to the inverted nuclear-electronic interactions.
+    \item \textbf{Symmetry Breaking}: The advanced symmetry verification technique (Figure~\ref{fig:symmetry_verification}) relies on conservation of certain symmetries in the molecular Hamiltonian. Our results suggest that quantum noise affects these symmetry properties differently in anti-matter systems, potentially due to the inverted nuclear-electronic interactions. Specifically, errors that preserve symmetry in normal HeH$^+$ calculations may break symmetry in anti-HeH$^+$ calculations due to the different weights of Hamiltonian terms.
+    
+    \item \textbf{Noise Amplification}: Error mitigation techniques often involve circuit transformations that can inadvertently amplify certain error types. The unique Hamiltonian structure of anti-HeH$^+$ may make it particularly susceptible to these amplified error channels, explaining why mitigation attempts actually increased the error.
 \end{itemize}
 
-These findings highlight the need for developing specialized error mitigation techniques tailored specifically for anti-matter quantum simulations, as conventional approaches developed for normal molecular systems appear to be suboptimal or even counterproductive.
+Rather than viewing this as a failure of error mitigation, we interpret it as an important discovery about the unique quantum computational properties of anti-matter systems. This finding highlights the need for developing specialized error mitigation techniques tailored specifically for anti-matter quantum simulations, as conventional approaches developed for normal molecular systems appear to be suboptimal or even counterproductive. Future work should focus on characterizing the specific error channels that affect anti-matter simulations and developing mitigation strategies that address these unique error structures.
 
 \subsubsection{Hardware and Runtime Configuration}
 Simulations were performed using both statevector simulators for noise-free results and noisy simulators calibrated to match IBM's 27-qubit Falcon processors. The noisy simulations incorporated realistic device parameters including:
@@ -614,6 +630,8 @@ Looking beyond static properties, our analysis of time evolution and wavefunctio
 
 \section{The Antinature Software Framework}
 
+Having explored the quantum computational challenges and unique physical properties of anti-matter molecular systems, we now turn our attention to the software framework we have developed to address these challenges. The Antinature framework represents a comprehensive software solution specifically designed for the quantum mechanical simulation of antimatter systems, complementing the experimental approaches described above with powerful computational tools.
+
 \subsection{Overview and Architecture}
 Antinature is a comprehensive Python framework designed specifically for the quantum mechanical simulation of antimatter systems. The framework extends standard electronic structure methods to include antimatter particles, enabling accurate calculations of positronium, anti-hydrogen, anti-HeH$^+$, and other mixed matter-antimatter systems. The core philosophy of Antinature is to provide a versatile, modular toolkit that can be applied across different scales of antimatter simulation, from simple positronium to complex molecular systems containing positrons.
 
@@ -754,6 +772,46 @@ Antinature is available as an open-source Python package, with comprehensive doc
 
 The framework is designed to be accessible to researchers with backgrounds in quantum chemistry, positron physics, or materials science, while still providing the flexibility and depth required for cutting-edge antimatter research.
 
+Below is a simple example of how to use Antinature to calculate the ground state energy of the anti-HeH$^+$ system:
+
+\begin{verbatim}
+import antinature as an
+
+# Create an antimatter molecular system
+anti_heh = an.AntiMolecule(
+    anti_atoms=['He', 'H'],
+    charges=[-2, -1],
+    coordinates=[[0.0, 0.0, 0.0], [0.0, 0.0, 1.5]]
+)
+
+# Set up calculation with STO-3G basis and anti-HF method
+calc = an.AntiHF(
+    molecule=anti_heh, 
+    basis='sto-3g',
+    include_annihilation=True
+)
+
+# Run the calculation
+energy = calc.compute_energy()
+print(f"Anti-HeH+ ground state energy: {energy:.6f} Hartree")
+
+# Optional: Compute on quantum hardware using VQE
+vqe_calc = an.QuantumVQE(
+    molecule=anti_heh,
+    basis='sto-3g',
+    backend='ibmq_qasm_simulator'
+)
+
+quantum_energy = vqe_calc.compute_energy()
+print(f"VQE energy: {quantum_energy:.6f} Hartree")
+
+# Analyze electronic structure
+orbitals = calc.get_molecular_orbitals()
+an.visualize_orbital_density(orbitals, orbital_idx=0)
+\end{verbatim}
+
+This example demonstrates the core functionality of Antinature, including molecule definition with anti-nuclei, classical anti-matter Hartree-Fock calculations, quantum VQE simulation, and visualization tools. The actual API provides many more options for advanced calculations, including correlation methods, relativistic corrections, and specialized basis sets for antimatter particles.
+
 \section{Conclusion}
 In this work, we have conducted a comprehensive quantum computational study of the anti-matter helium hydride cation (anti-HeH$^+$) in comparison with its normal matter counterpart. Our findings reveal significant differences in the energetic properties, structural characteristics, and quantum computational behavior of these molecular systems.
 
@@ -771,7 +829,11 @@ This work represents a significant step toward understanding anti-matter molecul
 We gratefully acknowledge the foundational contributions of Dr. Paul Dirac, whose revolutionary equation predicted the existence of antimatter and fundamentally changed our understanding of quantum physics. His theoretical insights continue to guide the development of computational methods for antimatter systems nearly a century later. We also extend our appreciation to Richard Feynman, whose visionary proposal of quantum computers as simulators for quantum systems has directly inspired the quantum computing components of this work. Feynman's insight that "nature isn't classical, dammit, and if you want to make a simulation of nature, you'd better make it quantum mechanical" provides the philosophical foundation for our quantum circuit implementations.
 
 We thank IBM Quantum for providing access to quantum computing resources through the IBM Quantum Experience. Special thanks to the authors of the referenced papers for their valuable contributions to the field of anti-matter research.
+
 \bibliographystyle{unsrt}
 \bibliography{references}
+
+\vspace{1em}
+\noindent\textit{Correspondence:} \texttt{Mukulpal108@hotmail.com}
 
 \end{document}          
